@@ -1,0 +1,893 @@
+<html class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'teal-soft': '#4FD1C7',
+                        'blue-gentle': '#60A5FA',
+                        'sage': '#9CA3AF',
+                        'warm-white': '#FEFEFE',
+                        'ocean': '#0EA5E9'
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/css">:host,:root{--fa-font-solid:normal 900 1em/1 "Font Awesome 6 Solid";--fa-font-regular:normal 400 1em/1 "Font Awesome 6 Regular";--fa-font-light:normal 300 1em/1 "Font Awesome 6 Light";--fa-font-thin:normal 100 1em/1 "Font Awesome 6 Thin";--fa-font-duotone:normal 900 1em/1 "Font Awesome 6 Duotone";--fa-font-sharp-solid:normal 900 1em/1 "Font Awesome 6 Sharp";--fa-font-sharp-regular:normal 400 1em/1 "Font Awesome 6 Sharp";--fa-font-sharp-light:normal 300 1em/1 "Font Awesome 6 Sharp";--fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands"}svg:not(:host).svg-inline--fa,svg:not(:root).svg-inline--fa{overflow:visible;box-sizing:content-box}.svg-inline--fa{display:var(--fa-display,inline-block);height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-2xs{vertical-align:.1em}.svg-inline--fa.fa-xs{vertical-align:0}.svg-inline--fa.fa-sm{vertical-align:-.0714285705em}.svg-inline--fa.fa-lg{vertical-align:-.2em}.svg-inline--fa.fa-xl{vertical-align:-.25em}.svg-inline--fa.fa-2xl{vertical-align:-.3125em}.svg-inline--fa.fa-pull-left{margin-right:var(--fa-pull-margin,.3em);width:auto}.svg-inline--fa.fa-pull-right{margin-left:var(--fa-pull-margin,.3em);width:auto}.svg-inline--fa.fa-li{width:var(--fa-li-width,2em);top:.25em}.svg-inline--fa.fa-fw{width:var(--fa-fw-width,1.25em)}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:var(--fa-counter-background-color,#ff253a);border-radius:var(--fa-counter-border-radius,1em);box-sizing:border-box;color:var(--fa-inverse,#fff);line-height:var(--fa-counter-line-height,1);max-width:var(--fa-counter-max-width,5em);min-width:var(--fa-counter-min-width,1.5em);overflow:hidden;padding:var(--fa-counter-padding,.25em .5em);right:var(--fa-right,0);text-overflow:ellipsis;top:var(--fa-top,0);-webkit-transform:scale(var(--fa-counter-scale,.25));transform:scale(var(--fa-counter-scale,.25));-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:var(--fa-bottom,0);right:var(--fa-right,0);top:auto;-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:var(--fa-bottom,0);left:var(--fa-left,0);right:auto;top:auto;-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{top:var(--fa-top,0);right:var(--fa-right,0);-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:var(--fa-left,0);right:auto;top:var(--fa-top,0);-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:top left;transform-origin:top left}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-2xs{font-size:.625em;line-height:.1em;vertical-align:.225em}.fa-xs{font-size:.75em;line-height:.0833333337em;vertical-align:.125em}.fa-sm{font-size:.875em;line-height:.0714285718em;vertical-align:.0535714295em}.fa-lg{font-size:1.25em;line-height:.05em;vertical-align:-.075em}.fa-xl{font-size:1.5em;line-height:.0416666682em;vertical-align:-.125em}.fa-2xl{font-size:2em;line-height:.03125em;vertical-align:-.1875em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:var(--fa-li-margin,2.5em);padding-left:0}.fa-ul>li{position:relative}.fa-li{left:calc(var(--fa-li-width,2em) * -1);position:absolute;text-align:center;width:var(--fa-li-width,2em);line-height:inherit}.fa-border{border-color:var(--fa-border-color,#eee);border-radius:var(--fa-border-radius,.1em);border-style:var(--fa-border-style,solid);border-width:var(--fa-border-width,.08em);padding:var(--fa-border-padding,.2em .25em .15em)}.fa-pull-left{float:left;margin-right:var(--fa-pull-margin,.3em)}.fa-pull-right{float:right;margin-left:var(--fa-pull-margin,.3em)}.fa-beat{-webkit-animation-name:fa-beat;animation-name:fa-beat;-webkit-animation-delay:var(--fa-animation-delay,0s);animation-delay:var(--fa-animation-delay,0s);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,ease-in-out);animation-timing-function:var(--fa-animation-timing,ease-in-out)}.fa-bounce{-webkit-animation-name:fa-bounce;animation-name:fa-bounce;-webkit-animation-delay:var(--fa-animation-delay,0s);animation-delay:var(--fa-animation-delay,0s);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.28,.84,.42,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.28,.84,.42,1))}.fa-fade{-webkit-animation-name:fa-fade;animation-name:fa-fade;-webkit-animation-delay:var(--fa-animation-delay,0s);animation-delay:var(--fa-animation-delay,0s);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1))}.fa-beat-fade{-webkit-animation-name:fa-beat-fade;animation-name:fa-beat-fade;-webkit-animation-delay:var(--fa-animation-delay,0s);animation-delay:var(--fa-animation-delay,0s);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1))}.fa-flip{-webkit-animation-name:fa-flip;animation-name:fa-flip;-webkit-animation-delay:var(--fa-animation-delay,0s);animation-delay:var(--fa-animation-delay,0s);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,ease-in-out);animation-timing-function:var(--fa-animation-timing,ease-in-out)}.fa-shake{-webkit-animation-name:fa-shake;animation-name:fa-shake;-webkit-animation-delay:var(--fa-animation-delay,0s);animation-delay:var(--fa-animation-delay,0s);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,linear);animation-timing-function:var(--fa-animation-timing,linear)}.fa-spin{-webkit-animation-name:fa-spin;animation-name:fa-spin;-webkit-animation-delay:var(--fa-animation-delay,0s);animation-delay:var(--fa-animation-delay,0s);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,2s);animation-duration:var(--fa-animation-duration,2s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,linear);animation-timing-function:var(--fa-animation-timing,linear)}.fa-spin-reverse{--fa-animation-direction:reverse}.fa-pulse,.fa-spin-pulse{-webkit-animation-name:fa-spin;animation-name:fa-spin;-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,steps(8));animation-timing-function:var(--fa-animation-timing,steps(8))}@media (prefers-reduced-motion:reduce){.fa-beat,.fa-beat-fade,.fa-bounce,.fa-fade,.fa-flip,.fa-pulse,.fa-shake,.fa-spin,.fa-spin-pulse{-webkit-animation-delay:-1ms;animation-delay:-1ms;-webkit-animation-duration:1ms;animation-duration:1ms;-webkit-animation-iteration-count:1;animation-iteration-count:1;-webkit-transition-delay:0s;transition-delay:0s;-webkit-transition-duration:0s;transition-duration:0s}}@-webkit-keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}45%{-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}@keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}45%{-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}@-webkit-keyframes fa-bounce{0%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}10%{-webkit-transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0);transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0)}30%{-webkit-transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em));transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em))}50%{-webkit-transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0);transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0)}57%{-webkit-transform:scale(1,1) translateY(var(--fa-bounce-rebound,-.125em));transform:scale(1,1) translateY(var(--fa-bounce-rebound,-.125em))}64%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}100%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}}@keyframes fa-bounce{0%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}10%{-webkit-transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0);transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0)}30%{-webkit-transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em));transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em))}50%{-webkit-transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0);transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0)}57%{-webkit-transform:scale(1,1) translateY(var(--fa-bounce-rebound,-.125em));transform:scale(1,1) translateY(var(--fa-bounce-rebound,-.125em))}64%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}100%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}}@-webkit-keyframes fa-fade{50%{opacity:var(--fa-fade-opacity,.4)}}@keyframes fa-fade{50%{opacity:var(--fa-fade-opacity,.4)}}@-webkit-keyframes fa-beat-fade{0%,100%{opacity:var(--fa-beat-fade-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}50%{opacity:1;-webkit-transform:scale(var(--fa-beat-fade-scale,1.125));transform:scale(var(--fa-beat-fade-scale,1.125))}}@keyframes fa-beat-fade{0%,100%{opacity:var(--fa-beat-fade-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}50%{opacity:1;-webkit-transform:scale(var(--fa-beat-fade-scale,1.125));transform:scale(var(--fa-beat-fade-scale,1.125))}}@-webkit-keyframes fa-flip{50%{-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}@keyframes fa-flip{50%{-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}@-webkit-keyframes fa-shake{0%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}4%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}24%,8%{-webkit-transform:rotate(-18deg);transform:rotate(-18deg)}12%,28%{-webkit-transform:rotate(18deg);transform:rotate(18deg)}16%{-webkit-transform:rotate(-22deg);transform:rotate(-22deg)}20%{-webkit-transform:rotate(22deg);transform:rotate(22deg)}32%{-webkit-transform:rotate(-12deg);transform:rotate(-12deg)}36%{-webkit-transform:rotate(12deg);transform:rotate(12deg)}100%,40%{-webkit-transform:rotate(0);transform:rotate(0)}}@keyframes fa-shake{0%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}4%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}24%,8%{-webkit-transform:rotate(-18deg);transform:rotate(-18deg)}12%,28%{-webkit-transform:rotate(18deg);transform:rotate(18deg)}16%{-webkit-transform:rotate(-22deg);transform:rotate(-22deg)}20%{-webkit-transform:rotate(22deg);transform:rotate(22deg)}32%{-webkit-transform:rotate(-12deg);transform:rotate(-12deg)}36%{-webkit-transform:rotate(12deg);transform:rotate(12deg)}100%,40%{-webkit-transform:rotate(0);transform:rotate(0)}}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}.fa-rotate-by{-webkit-transform:rotate(var(--fa-rotate-angle,none));transform:rotate(var(--fa-rotate-angle,none))}.fa-stack{display:inline-block;vertical-align:middle;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0;z-index:var(--fa-stack-z-index,auto)}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:var(--fa-inverse,#fff)}.fa-sr-only,.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.fa-sr-only-focusable:not(:focus),.sr-only-focusable:not(:focus){position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fa-duotone.fa-inverse,.fad.fa-inverse{color:var(--fa-inverse,#fff)}</style><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <script> window.FontAwesomeConfig = { autoReplaceSvg: 'nest'};</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>::-webkit-scrollbar { display: none;}</style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.bottom-6{bottom:1.5rem}.left-0{left:0px}.left-6{left:1.5rem}.right-0{right:0px}.right-6{right:1.5rem}.top-0{top:0px}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mt-1{margin-top:0.25rem}.mt-12{margin-top:3rem}.mt-16{margin-top:4rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-12{height:3rem}.h-16{height:4rem}.h-8{height:2rem}.h-96{height:24rem}.h-\[700px\]{height:700px}.w-10{width:2.5rem}.w-12{width:3rem}.w-16{width:4rem}.w-8{width:2rem}.w-full{width:100%}.max-w-3xl{max-width:48rem}.max-w-7xl{max-width:80rem}.max-w-md{max-width:28rem}.max-w-xl{max-width:36rem}.flex-shrink-0{flex-shrink:0}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-16{gap:4rem}.gap-4{gap:1rem}.gap-8{gap:2rem}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-3 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.75rem * var(--tw-space-x-reverse));margin-left:calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246 / var(--tw-border-opacity, 1))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.border-teal-soft{--tw-border-opacity:1;border-color:rgb(79 209 199 / var(--tw-border-opacity, 1))}.bg-warm-white{--tw-bg-opacity:1;background-color:rgb(254 254 254 / var(--tw-bg-opacity, 1))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/95{background-color:rgb(255 255 255 / 0.95)}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-blue-50{--tw-gradient-from:#eff6ff var(--tw-gradient-from-position);--tw-gradient-to:rgb(239 246 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-gentle{--tw-gradient-from:#60A5FA var(--tw-gradient-from-position);--tw-gradient-to:rgb(96 165 250 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-gray-50{--tw-gradient-from:#f9fafb var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 250 251 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-50{--tw-gradient-from:#f0fdfa var(--tw-gradient-from-position);--tw-gradient-to:rgb(240 253 250 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-soft{--tw-gradient-from:#4FD1C7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 209 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-soft\/10{--tw-gradient-from:rgb(79 209 199 / 0.1) var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 209 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-soft\/20{--tw-gradient-from:rgb(79 209 199 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 209 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-white{--tw-gradient-to:rgb(255 255 255 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #fff var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-blue-50{--tw-gradient-to:#eff6ff var(--tw-gradient-to-position)}.to-blue-gentle{--tw-gradient-to:#60A5FA var(--tw-gradient-to-position)}.to-blue-gentle\/10{--tw-gradient-to:rgb(96 165 250 / 0.1) var(--tw-gradient-to-position)}.to-blue-gentle\/20{--tw-gradient-to:rgb(96 165 250 / 0.2) var(--tw-gradient-to-position)}.to-teal-50{--tw-gradient-to:#f0fdfa var(--tw-gradient-to-position)}.to-teal-soft{--tw-gradient-to:#4FD1C7 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.object-cover{object-fit:cover}.p-12{padding:3rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.pb-16{padding-bottom:4rem}.pt-24{padding-top:6rem}.pt-4{padding-top:1rem}.pt-8{padding-top:2rem}.text-center{text-align:center}.text-right{text-align:right}.font-inter{font-family:Inter, sans-serif}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.text-blue-gentle{--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity, 1))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity, 1))}.text-sage{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-teal-soft{--tw-text-opacity:1;color:rgb(79 209 199 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21 / var(--tw-text-opacity, 1))}.line-through{-webkit-text-decoration-line:line-through;text-decoration-line:line-through}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:-translate-y-2:hover{--tw-translate-y:-0.5rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:border-teal-soft:hover{--tw-border-opacity:1;border-color:rgb(79 209 199 / var(--tw-border-opacity, 1))}.hover\:bg-blue-gentle:hover{--tw-bg-opacity:1;background-color:rgb(96 165 250 / var(--tw-bg-opacity, 1))}.hover\:bg-teal-soft:hover{--tw-bg-opacity:1;background-color:rgb(79 209 199 / var(--tw-bg-opacity, 1))}.hover\:text-blue-gentle:hover{--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity, 1))}.hover\:text-teal-soft:hover{--tw-text-opacity:1;color:rgb(79 209 199 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:shadow-2xl:hover{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-lg:hover{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-xl:hover{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.focus\:border-transparent:focus{border-color:transparent}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-teal-soft:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(79 209 199 / var(--tw-ring-opacity, 1))}.group:hover .group-hover\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@media (min-width: 640px){.sm\:flex-row{flex-direction:row}}@media (min-width: 768px){.md\:mt-0{margin-top:0px}.md\:flex{display:flex}.md\:hidden{display:none}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}}@media (min-width: 1024px){.lg\:col-span-2{grid-column:span 2 / span 2}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\:text-6xl{font-size:3.75rem;line-height:1}}</style></head>
+<body class="font-inter bg-warm-white" data-new-gr-c-s-check-loaded="14.1257.0" data-gr-ext-installed="">
+
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center">
+                        <i class="text-white text-lg" data-fa-i2svg=""><svg class="svg-inline--fa fa-brain" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="brain" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M184 0c30.9 0 56 25.1 56 56V456c0 30.9-25.1 56-56 56c-28.9 0-52.7-21.9-55.7-50.1c-5.2 1.4-10.7 2.1-16.3 2.1c-35.3 0-64-28.7-64-64c0-7.4 1.3-14.6 3.6-21.2C21.4 367.4 0 338.2 0 304c0-31.9 18.7-59.5 45.8-72.3C37.1 220.8 32 207 32 192c0-30.7 21.6-56.3 50.4-62.6C80.8 123.9 80 118 80 112c0-29.9 20.6-55.1 48.3-62.1C131.3 21.9 155.1 0 184 0zM328 0c28.9 0 52.6 21.9 55.7 49.9c27.8 7 48.3 32.1 48.3 62.1c0 6-.8 11.9-2.4 17.4c28.8 6.2 50.4 31.9 50.4 62.6c0 15-5.1 28.8-13.8 39.7C493.3 244.5 512 272.1 512 304c0 34.2-21.4 63.4-51.6 74.8c2.3 6.6 3.6 13.8 3.6 21.2c0 35.3-28.7 64-64 64c-5.6 0-11.1-.7-16.3-2.1c-3 28.2-26.8 50.1-55.7 50.1c-30.9 0-56-25.1-56-56V56c0-30.9 25.1-56 56-56z"></path></svg></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-gray-800">PRUDENTIA</h1>
+                        <p class="text-xs text-sage">Psychological Services</p>
+                    </div>
+                </div>
+                <nav class="hidden md:flex items-center space-x-8">
+                    <span class="text-gray-700 hover:text-teal-soft transition-colors duration-300 font-medium cursor-pointer">About</span>
+                    <span class="text-gray-700 hover:text-teal-soft transition-colors duration-300 font-medium cursor-pointer">Services</span>
+                    <span class="text-gray-700 hover:text-teal-soft transition-colors duration-300 font-medium cursor-pointer">Approach</span>
+                    <span class="text-gray-700 hover:text-teal-soft transition-colors duration-300 font-medium cursor-pointer">Testimonials</span>
+                    <span class="text-gray-700 hover:text-teal-soft transition-colors duration-300 font-medium cursor-pointer">Pricing</span>
+                    <span class="text-gray-700 hover:text-teal-soft transition-colors duration-300 font-medium cursor-pointer">Contact</span>
+                    <button class="bg-gradient-to-r from-teal-soft to-blue-gentle text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                        Book Consultation
+                    </button>
+                </nav>
+                <button class="md:hidden text-gray-700">
+                    <i class="text-xl" data-fa-i2svg=""><svg class="svg-inline--fa fa-bars" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section id="hero" class="pt-24 pb-16 bg-gradient-to-br from-blue-50 via-white to-teal-50 h-[700px] flex items-center">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-8" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="space-y-6" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <h1 class="text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
+                                Find Your Path to 
+                                <span class="bg-gradient-to-r from-teal-soft to-blue-gentle bg-clip-text text-transparent">Mental Wellness</span>
+                            </h1>
+                            <p class="text-xl text-gray-600 leading-relaxed max-w-xl">
+                                Professional Cognitive Behavioral Therapy services designed to help you overcome challenges, build resilience, and create lasting positive change in your life.
+                            </p>
+                        </div>
+                        <div class="flex flex-col sm:flex-row gap-4" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <button class="bg-gradient-to-r from-teal-soft to-blue-gentle text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105" style="transform: scale(1);">
+                                Schedule Free Consultation
+                            </button>
+                            <button class="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full font-semibold hover:border-teal-soft hover:text-teal-soft transition-all duration-300" style="transform: scale(1);">
+                                Learn More About CBT
+                            </button>
+                        </div>
+                        <div class="flex items-center space-x-6 pt-4" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <div class="flex items-center space-x-2">
+                                <i class="text-teal-soft" data-fa-i2svg=""><svg class="svg-inline--fa fa-shield-halved" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shield-halved" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z"></path></svg></i>
+                                <span class="text-sm text-gray-600">HIPAA Compliant</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="text-blue-gentle" data-fa-i2svg=""><svg class="svg-inline--fa fa-clock" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"></path></svg></i>
+                                <span class="text-sm text-gray-600">Flexible Scheduling</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="text-teal-soft" data-fa-i2svg=""><svg class="svg-inline--fa fa-video" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="video" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2V384c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1V320 192 174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"></path></svg></i>
+                                <span class="text-sm text-gray-600">Online Sessions</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="absolute inset-0 bg-gradient-to-r from-teal-soft/20 to-blue-gentle/20 rounded-3xl blur-3xl"></div>
+                        <img class="relative rounded-3xl shadow-2xl w-full h-96 object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/c1aac09b57-5343c85017f37c4697e3.png" alt="peaceful therapy office with comfortable seating, soft lighting, plants, and calming blue teal color scheme">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+                    <div class="space-y-8" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="space-y-6" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <h2 class="text-4xl font-bold text-gray-800">
+                                Meet Dr. Sarah Thompson
+                            </h2>
+                            <p class="text-lg text-gray-600 leading-relaxed">
+                                With over 12 years of experience in clinical psychology and specialized training in Cognitive Behavioral Therapy, Dr. Thompson is dedicated to helping adults navigate life's challenges with evidence-based therapeutic approaches.
+                            </p>
+                        </div>
+                        <div class="space-y-4" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-8 h-8 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center flex-shrink-0 mt-1">
+                                    <i class="text-white text-sm" data-fa-i2svg=""><svg class="svg-inline--fa fa-graduation-cap" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="graduation-cap" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"></path></svg></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Ph.D. in Clinical Psychology</h4>
+                                    <p class="text-gray-600">Stanford University, 2011</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="w-8 h-8 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center flex-shrink-0 mt-1">
+                                    <i class="text-white text-sm" data-fa-i2svg=""><svg class="svg-inline--fa fa-certificate" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="certificate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M211 7.3C205 1 196-1.4 187.6 .8s-14.9 8.9-17.1 17.3L154.7 80.6l-62-17.5c-8.4-2.4-17.4 0-23.5 6.1s-8.5 15.1-6.1 23.5l17.5 62L18.1 170.6c-8.4 2.1-15 8.7-17.3 17.1S1 205 7.3 211l46.2 45L7.3 301C1 307-1.4 316 .8 324.4s8.9 14.9 17.3 17.1l62.5 15.8-17.5 62c-2.4 8.4 0 17.4 6.1 23.5s15.1 8.5 23.5 6.1l62-17.5 15.8 62.5c2.1 8.4 8.7 15 17.1 17.3s17.3-.2 23.4-6.4l45-46.2 45 46.2c6.1 6.2 15 8.7 23.4 6.4s14.9-8.9 17.1-17.3l15.8-62.5 62 17.5c8.4 2.4 17.4 0 23.5-6.1s8.5-15.1 6.1-23.5l-17.5-62 62.5-15.8c8.4-2.1 15-8.7 17.3-17.1s-.2-17.3-6.4-23.4l-46.2-45 46.2-45c6.2-6.1 8.7-15 6.4-23.4s-8.9-14.9-17.3-17.1l-62.5-15.8 17.5-62c2.4-8.4 0-17.4-6.1-23.5s-15.1-8.5-23.5-6.1l-62 17.5L341.4 18.1c-2.1-8.4-8.7-15-17.1-17.3S307 1 301 7.3L256 53.5 211 7.3z"></path></svg></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Licensed Clinical Psychologist</h4>
+                                    <p class="text-gray-600">California Board of Psychology</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="w-8 h-8 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center flex-shrink-0 mt-1">
+                                    <i class="text-white text-sm" data-fa-i2svg=""><svg class="svg-inline--fa fa-award" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="award" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M173.8 5.5c11-7.3 25.4-7.3 36.4 0L228 17.2c6 3.9 13 5.8 20.1 5.4l21.3-1.3c13.2-.8 25.6 6.4 31.5 18.2l9.6 19.1c3.2 6.4 8.4 11.5 14.7 14.7L344.5 83c11.8 5.9 19 18.3 18.2 31.5l-1.3 21.3c-.4 7.1 1.5 14.2 5.4 20.1l11.8 17.8c7.3 11 7.3 25.4 0 36.4L366.8 228c-3.9 6-5.8 13-5.4 20.1l1.3 21.3c.8 13.2-6.4 25.6-18.2 31.5l-19.1 9.6c-6.4 3.2-11.5 8.4-14.7 14.7L301 344.5c-5.9 11.8-18.3 19-31.5 18.2l-21.3-1.3c-7.1-.4-14.2 1.5-20.1 5.4l-17.8 11.8c-11 7.3-25.4 7.3-36.4 0L156 366.8c-6-3.9-13-5.8-20.1-5.4l-21.3 1.3c-13.2 .8-25.6-6.4-31.5-18.2l-9.6-19.1c-3.2-6.4-8.4-11.5-14.7-14.7L39.5 301c-11.8-5.9-19-18.3-18.2-31.5l1.3-21.3c.4-7.1-1.5-14.2-5.4-20.1L5.5 210.2c-7.3-11-7.3-25.4 0-36.4L17.2 156c3.9-6 5.8-13 5.4-20.1l-1.3-21.3c-.8-13.2 6.4-25.6 18.2-31.5l19.1-9.6C65 70.2 70.2 65 73.4 58.6L83 39.5c5.9-11.8 18.3-19 31.5-18.2l21.3 1.3c7.1 .4 14.2-1.5 20.1-5.4L173.8 5.5zM272 192a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM1.3 441.8L44.4 339.3c.2 .1 .3 .2 .4 .4l9.6 19.1c11.7 23.2 36 37.3 62 35.8l21.3-1.3c.2 0 .5 0 .7 .2l17.8 11.8c5.1 3.3 10.5 5.9 16.1 7.7l-37.6 89.3c-2.3 5.5-7.4 9.2-13.3 9.7s-11.6-2.2-14.8-7.2L74.4 455.5l-56.1 8.3c-5.7 .8-11.4-1.5-15-6s-4.3-10.7-2.1-16zm248 60.4L211.7 413c5.6-1.8 11-4.3 16.1-7.7l17.8-11.8c.2-.1 .4-.2 .7-.2l21.3 1.3c26 1.5 50.3-12.6 62-35.8l9.6-19.1c.1-.2 .2-.3 .4-.4l43.2 102.5c2.2 5.3 1.4 11.4-2.1 16s-9.3 6.9-15 6l-56.1-8.3-32.2 49.2c-3.2 5-8.9 7.7-14.8 7.2s-11-4.3-13.3-9.7z"></path></svg></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">CBT Specialist Certification</h4>
+                                    <p class="text-gray-600">Beck Institute for Cognitive Behavior Therapy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-r from-blue-50 to-teal-50 p-6 rounded-2xl" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <p class="text-gray-700 italic leading-relaxed">
+                                "My approach combines compassionate understanding with practical, evidence-based techniques to help you develop the tools needed for lasting positive change."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="relative" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="absolute inset-0 bg-gradient-to-br from-teal-soft/10 to-blue-gentle/10 rounded-3xl"></div>
+                        <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg" alt="Dr. Sarah Thompson" class="relative rounded-3xl shadow-xl w-full h-96 object-cover">
+                        <div class="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm rounded-2xl p-4">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Years of Experience</h4>
+                                    <p class="text-2xl font-bold text-teal-soft">12+</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Clients Helped</h4>
+                                    <p class="text-2xl font-bold text-blue-gentle">500+</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Success Rate</h4>
+                                    <p class="text-2xl font-bold text-teal-soft">92%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">
+                        Comprehensive CBT Services
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                        Evidence-based therapeutic approaches tailored to your unique needs, helping you develop practical skills for managing thoughts, emotions, and behaviors.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="text-white text-2xl" data-fa-i2svg=""><svg class="svg-inline--fa fa-brain" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="brain" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M184 0c30.9 0 56 25.1 56 56V456c0 30.9-25.1 56-56 56c-28.9 0-52.7-21.9-55.7-50.1c-5.2 1.4-10.7 2.1-16.3 2.1c-35.3 0-64-28.7-64-64c0-7.4 1.3-14.6 3.6-21.2C21.4 367.4 0 338.2 0 304c0-31.9 18.7-59.5 45.8-72.3C37.1 220.8 32 207 32 192c0-30.7 21.6-56.3 50.4-62.6C80.8 123.9 80 118 80 112c0-29.9 20.6-55.1 48.3-62.1C131.3 21.9 155.1 0 184 0zM328 0c28.9 0 52.6 21.9 55.7 49.9c27.8 7 48.3 32.1 48.3 62.1c0 6-.8 11.9-2.4 17.4c28.8 6.2 50.4 31.9 50.4 62.6c0 15-5.1 28.8-13.8 39.7C493.3 244.5 512 272.1 512 304c0 34.2-21.4 63.4-51.6 74.8c2.3 6.6 3.6 13.8 3.6 21.2c0 35.3-28.7 64-64 64c-5.6 0-11.1-.7-16.3-2.1c-3 28.2-26.8 50.1-55.7 50.1c-30.9 0-56-25.1-56-56V56c0-30.9 25.1-56 56-56z"></path></svg></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Anxiety &amp; Panic Disorders</h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Learn effective coping strategies to manage anxiety, panic attacks, and phobias through structured CBT techniques and exposure therapy.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center space-x-2">
+                                <i class="text-teal-soft" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Cognitive restructuring</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <i class="text-teal-soft" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Relaxation techniques</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <i class="text-teal-soft" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Gradual exposure therapy</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-r from-blue-gentle to-teal-soft flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="text-white text-2xl" data-fa-i2svg=""><svg class="svg-inline--fa fa-cloud-rain" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cloud-rain" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M96 320c-53 0-96-43-96-96c0-42.5 27.6-78.6 65.9-91.2C64.7 126.1 64 119.1 64 112C64 50.1 114.1 0 176 0c43.1 0 80.5 24.3 99.2 60c14.7-17.1 36.5-28 60.8-28c44.2 0 80 35.8 80 80c0 5.5-.6 10.8-1.6 16c.5 0 1.1 0 1.6 0c53 0 96 43 96 96s-43 96-96 96H96zm-6.8 52c1.3-2.5 3.9-4 6.8-4s5.4 1.5 6.8 4l35.1 64.6c4.1 7.5 6.2 15.8 6.2 24.3v3c0 26.5-21.5 48-48 48s-48-21.5-48-48v-3c0-8.5 2.1-16.9 6.2-24.3L89.2 372zm160 0c1.3-2.5 3.9-4 6.8-4s5.4 1.5 6.8 4l35.1 64.6c4.1 7.5 6.2 15.8 6.2 24.3v3c0 26.5-21.5 48-48 48s-48-21.5-48-48v-3c0-8.5 2.1-16.9 6.2-24.3L249.2 372zm124.9 64.6L409.2 372c1.3-2.5 3.9-4 6.8-4s5.4 1.5 6.8 4l35.1 64.6c4.1 7.5 6.2 15.8 6.2 24.3v3c0 26.5-21.5 48-48 48s-48-21.5-48-48v-3c0-8.5 2.1-16.9 6.2-24.3z"></path></svg></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Depression Treatment</h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Address negative thought patterns and develop healthy behavioral changes to overcome depression and improve mood regulation.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center space-x-2">
+                                <i class="text-blue-gentle" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Behavioral activation</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <i class="text-blue-gentle" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Mood monitoring</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <i class="text-blue-gentle" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Thought challenging</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="text-white text-2xl" data-fa-i2svg=""><svg class="svg-inline--fa fa-heart" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"></path></svg></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Relationship Issues</h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Improve communication skills, resolve conflicts, and build healthier relationship patterns through CBT-based interventions.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center space-x-2">
+                                <i class="text-teal-soft" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Communication training</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <i class="text-teal-soft" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Conflict resolution</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <i class="text-teal-soft" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Attachment work</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-r from-blue-gentle to-teal-soft flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="text-white text-2xl" data-fa-i2svg=""><svg class="svg-inline--fa fa-briefcase" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="briefcase" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"></path></svg></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Work-Life Balance</h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Develop strategies to manage work stress, set boundaries, and create a healthier balance between professional and personal life.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center space-x-2">
+                                <i class="text-blue-gentle" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Stress management</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <i class="text-blue-gentle" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Time management</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <i class="text-blue-gentle" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Boundary setting</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="text-white text-2xl" data-fa-i2svg=""><svg class="svg-inline--fa fa-mountain" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="mountain" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 32c12.5 0 24.1 6.4 30.8 17L503.4 394.4c5.6 8.9 8.6 19.2 8.6 29.7c0 30.9-25 55.9-55.9 55.9H55.9C25 480 0 455 0 424.1c0-10.5 3-20.8 8.6-29.7L225.2 49c6.6-10.6 18.3-17 30.8-17zm65 192L256 120.4 176.9 246.5l18.3 24.4c6.4 8.5 19.2 8.5 25.6 0l25.6-34.1c6-8.1 15.5-12.8 25.6-12.8h49z"></path></svg></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Trauma Recovery</h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Process traumatic experiences and develop resilience through trauma-informed CBT approaches and coping strategies.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center space-x-2">
+                                <i class="text-teal-soft" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Trauma processing</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <i class="text-teal-soft" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>EMDR integration</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <i class="text-teal-soft" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Safety planning</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-r from-blue-gentle to-teal-soft flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="text-white text-2xl" data-fa-i2svg=""><svg class="svg-inline--fa fa-seedling" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="seedling" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M512 32c0 113.6-84.6 207.5-194.2 222c-7.1-53.4-30.6-101.6-65.3-139.3C290.8 46.3 364 0 448 0h32c17.7 0 32 14.3 32 32zM0 96C0 78.3 14.3 64 32 64H64c123.7 0 224 100.3 224 224v32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V320C100.3 320 0 219.7 0 96z"></path></svg></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Personal Growth</h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Build self-confidence, improve decision-making skills, and develop a stronger sense of identity and purpose in life.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center space-x-2">
+                                <i class="text-blue-gentle" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Self-esteem building</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <i class="text-blue-gentle" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Goal setting</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <i class="text-blue-gentle" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                <span>Values clarification</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="approach" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">
+                        My Therapeutic Approach
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                        A collaborative, evidence-based approach that combines the proven effectiveness of CBT with personalized care tailored to your unique situation.
+                    </p>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-16 items-center mb-16">
+                    <div class="space-y-8" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="space-y-6" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <h3 class="text-3xl font-bold text-gray-800">Cognitive Behavioral Therapy</h3>
+                            <p class="text-lg text-gray-600 leading-relaxed">
+                                CBT is a structured, goal-oriented therapy that focuses on identifying and changing negative thought patterns and behaviors. It's one of the most researched and effective forms of psychotherapy.
+                            </p>
+                        </div>
+                        <div class="space-y-6" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center flex-shrink-0">
+                                    <span class="text-white font-bold">1</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-gray-800 mb-2">Assessment &amp; Goal Setting</h4>
+                                    <p class="text-gray-600">We begin by understanding your specific challenges and collaboratively setting clear, achievable goals for therapy.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center flex-shrink-0">
+                                    <span class="text-white font-bold">2</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-gray-800 mb-2">Skill Development</h4>
+                                    <p class="text-gray-600">Learn practical techniques for managing thoughts, emotions, and behaviors through structured exercises and homework assignments.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center flex-shrink-0">
+                                    <span class="text-white font-bold">3</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-gray-800 mb-2">Practice &amp; Integration</h4>
+                                    <p class="text-gray-600">Apply new skills in real-life situations with ongoing support and adjustment of strategies as needed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <img class="rounded-3xl shadow-2xl w-full h-96 object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/9ca82b9855-e146608f5d5946ccb54b.png" alt="cognitive behavioral therapy session diagram with thought bubbles, brain illustration, and therapeutic tools in soft blue and teal colors">
+                        <div class="absolute inset-0 bg-gradient-to-r from-teal-soft/10 to-blue-gentle/10 rounded-3xl"></div>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center p-8 rounded-2xl bg-gradient-to-br from-blue-50 to-teal-50" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="w-16 h-16 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center mx-auto mb-4">
+                            <i class="text-white text-2xl" data-fa-i2svg=""><svg class="svg-inline--fa fa-handshake" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="handshake" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L512 316.8V128h-.7l-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2zm22.8 124.4l-51.7 40.2C263 274.4 217.3 268 193.7 235.6c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48V352h28.2l91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8l-134.2-123zM16 128c-8.8 0-16 7.2-16 16V352c0 17.7 14.3 32 32 32H64c17.7 0 32-14.3 32-32V128H16zM48 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM544 128V352c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V144c0-8.8-7.2-16-16-16H544zm32 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z"></path></svg></i>
+                        </div>
+                        <h4 class="text-xl font-semibold text-gray-800 mb-3">Collaborative Partnership</h4>
+                        <p class="text-gray-600">You're an active participant in your healing journey, working together to achieve your goals.</p>
+                    </div>
+                    <div class="text-center p-8 rounded-2xl bg-gradient-to-br from-teal-50 to-blue-50" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="w-16 h-16 rounded-full bg-gradient-to-r from-blue-gentle to-teal-soft flex items-center justify-center mx-auto mb-4">
+                            <i class="text-white text-2xl" data-fa-i2svg=""><svg class="svg-inline--fa fa-chart-line" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-line" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z"></path></svg></i>
+                        </div>
+                        <h4 class="text-xl font-semibold text-gray-800 mb-3">Evidence-Based Methods</h4>
+                        <p class="text-gray-600">All techniques are grounded in scientific research and proven to be effective.</p>
+                    </div>
+                    <div class="text-center p-8 rounded-2xl bg-gradient-to-br from-blue-50 to-teal-50" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="w-16 h-16 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center mx-auto mb-4">
+                            <i class="text-white text-2xl" data-fa-i2svg=""><svg class="svg-inline--fa fa-user-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM625 177L497 305c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L591 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path></svg></i>
+                        </div>
+                        <h4 class="text-xl font-semibold text-gray-800 mb-3">Personalized Care</h4>
+                        <p class="text-gray-600">Treatment plans are tailored to your unique needs, preferences, and circumstances.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">
+                        Client Success Stories
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                        Real stories from individuals who have transformed their lives through CBT therapy. Your journey to wellness starts here.
+                    </p>
+                </div>
+                <div class="grid lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-300" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="flex items-center space-x-4 mb-6">
+                            <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-2.jpg" alt="Client testimonial" class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Michael R.</h4>
+                                <p class="text-sm text-gray-600">Marketing Executive</p>
+                                <div class="flex text-yellow-400 mt-1">
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 leading-relaxed mb-6">
+                            "Dr. Thompson helped me overcome severe anxiety that was affecting my work performance. The CBT techniques she taught me have been life-changing. I now feel confident in presentations and have better control over my anxious thoughts."
+                        </p>
+                        <div class="flex items-center space-x-4 text-sm text-gray-500">
+                            <span>Anxiety Treatment</span>
+                            <span>•</span>
+                            <span>6 months</span>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-300" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="flex items-center space-x-4 mb-6">
+                            <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-7.jpg" alt="Client testimonial" class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Sarah L.</h4>
+                                <p class="text-sm text-gray-600">Teacher</p>
+                                <div class="flex text-yellow-400 mt-1">
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 leading-relaxed mb-6">
+                            "After struggling with depression for years, I finally found hope through Dr. Thompson's approach. She provided practical tools that helped me challenge negative thoughts and rebuild my sense of self-worth."
+                        </p>
+                        <div class="flex items-center space-x-4 text-sm text-gray-500">
+                            <span>Depression Treatment</span>
+                            <span>•</span>
+                            <span>8 months</span>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-300" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="flex items-center space-x-4 mb-6">
+                            <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-4.jpg" alt="Client testimonial" class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <h4 class="font-semibold text-gray-800">David K.</h4>
+                                <p class="text-sm text-gray-600">Software Engineer</p>
+                                <div class="flex text-yellow-400 mt-1">
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 leading-relaxed mb-6">
+                            "The relationship counseling sessions saved my marriage. Dr. Thompson taught us communication skills that we still use today. We're now happier and more connected than ever before."
+                        </p>
+                        <div class="flex items-center space-x-4 text-sm text-gray-500">
+                            <span>Relationship Therapy</span>
+                            <span>•</span>
+                            <span>4 months</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-16 bg-white rounded-3xl p-12 shadow-lg">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Treatment Outcomes</h3>
+                        <p class="text-gray-600">Based on client feedback and standardized assessment measures</p>
+                    </div>
+                    <div class="grid md:grid-cols-4 gap-8">
+                        <div class="text-center" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <div class="text-4xl font-bold text-teal-soft mb-2">92%</div>
+                            <p class="text-gray-600">Report Significant Improvement</p>
+                        </div>
+                        <div class="text-center" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <div class="text-4xl font-bold text-blue-gentle mb-2">85%</div>
+                            <p class="text-gray-600">Complete Treatment Goals</p>
+                        </div>
+                        <div class="text-center" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <div class="text-4xl font-bold text-teal-soft mb-2">4.9</div>
+                            <p class="text-gray-600">Average Rating (5-star scale)</p>
+                        </div>
+                        <div class="text-center" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <div class="text-4xl font-bold text-blue-gentle mb-2">96%</div>
+                            <p class="text-gray-600">Would Recommend to Others</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">
+                        Transparent Pricing &amp; Insurance
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                        Accessible mental health care with flexible payment options and comprehensive insurance coverage.
+                    </p>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-12 mb-16">
+                    <div class="space-y-8" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="bg-gradient-to-br from-blue-50 to-teal-50 rounded-3xl p-8" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-6">Session Rates</h3>
+                            <div class="space-y-6">
+                                <div class="flex justify-between items-center py-4 border-b border-gray-200">
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800">Individual Therapy (50 min)</h4>
+                                        <p class="text-sm text-gray-600">One-on-one CBT sessions</p>
+                                    </div>
+                                    <div class="text-right">
+                                        <div class="text-2xl font-bold text-teal-soft">$150</div>
+                                        <div class="text-sm text-gray-600">per session</div>
+                                    </div>
+                                </div>
+                                <div class="flex justify-between items-center py-4 border-b border-gray-200">
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800">Couples Therapy (80 min)</h4>
+                                        <p class="text-sm text-gray-600">Relationship counseling sessions</p>
+                                    </div>
+                                    <div class="text-right">
+                                        <div class="text-2xl font-bold text-blue-gentle">$200</div>
+                                        <div class="text-sm text-gray-600">per session</div>
+                                    </div>
+                                </div>
+                                <div class="flex justify-between items-center py-4">
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800">Initial Consultation (90 min)</h4>
+                                        <p class="text-sm text-gray-600">Comprehensive assessment</p>
+                                    </div>
+                                    <div class="text-right">
+                                        <div class="text-2xl font-bold text-teal-soft line-through text-gray-400">$200</div>
+                                        <div class="text-2xl font-bold text-green-500">FREE</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white border-2 border-gray-200 rounded-3xl p-8" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-6">Payment Options</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-3">
+                                    <i class="text-teal-soft" data-fa-i2svg=""><svg class="svg-inline--fa fa-credit-card" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="credit-card" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M64 32C28.7 32 0 60.7 0 96v32H576V96c0-35.3-28.7-64-64-64H64zM576 224H0V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V224zM112 352h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H112c-8.8 0-16-7.2-16-16s7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16H368c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-8.8 0-16-7.2-16-16z"></path></svg></i>
+                                    <span class="text-gray-700">Credit/Debit Cards</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i class="text-blue-gentle" data-fa-i2svg=""><svg class="svg-inline--fa fa-building-columns" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="building-columns" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224H64V420.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1V224H384V416H344V224H280V416H232V224H168V416H128V224zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg></i>
+                                    <span class="text-gray-700">Bank Transfers</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i class="text-teal-soft" data-fa-i2svg=""><svg class="svg-inline--fa fa-calendar" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="calendar" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"></path></svg></i>
+                                    <span class="text-gray-700">Payment Plans Available</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i class="text-blue-gentle" data-fa-i2svg=""><svg class="svg-inline--fa fa-receipt" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="receipt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M14 2.2C22.5-1.7 32.5-.3 39.6 5.8L80 40.4 120.4 5.8c9-7.7 22.3-7.7 31.2 0L192 40.4 232.4 5.8c9-7.7 22.3-7.7 31.2 0L304 40.4 344.4 5.8c7.1-6.1 17.1-7.5 25.6-3.6s14 12.4 14 21.8V488c0 9.4-5.5 17.9-14 21.8s-18.5 2.5-25.6-3.6L304 471.6l-40.4 34.6c-9 7.7-22.3 7.7-31.2 0L192 471.6l-40.4 34.6c-9 7.7-22.3 7.7-31.2 0L80 471.6 39.6 506.2c-7.1 6.1-17.1 7.5-25.6 3.6S0 497.4 0 488V24C0 14.6 5.5 6.1 14 2.2zM96 144c-8.8 0-16 7.2-16 16s7.2 16 16 16H288c8.8 0 16-7.2 16-16s-7.2-16-16-16H96zM80 352c0 8.8 7.2 16 16 16H288c8.8 0 16-7.2 16-16s-7.2-16-16-16H96c-8.8 0-16 7.2-16 16zM96 240c-8.8 0-16 7.2-16 16s7.2 16 16 16H288c8.8 0 16-7.2 16-16s-7.2-16-16-16H96z"></path></svg></i>
+                                    <span class="text-gray-700">Superbill for Reimbursement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-8" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="bg-white border-2 border-teal-soft rounded-3xl p-8" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-6">Insurance Coverage</h3>
+                            <div class="space-y-6">
+                                <div class="bg-gradient-to-r from-teal-50 to-blue-50 rounded-2xl p-6">
+                                    <h4 class="font-semibold text-gray-800 mb-3">In-Network Providers</h4>
+                                    <div class="grid grid-cols-2 gap-4 text-sm">
+                                        <div class="flex items-center space-x-2" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                                            <i class="text-green-500" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                            <span>Blue Cross Blue Shield</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                                            <i class="text-green-500" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                            <span>Aetna</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                                            <i class="text-green-500" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                            <span>Cigna</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                                            <i class="text-green-500" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                            <span>United Healthcare</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                                            <i class="text-green-500" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                            <span>Kaiser Permanente</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                                            <i class="text-green-500" data-fa-i2svg=""><svg class="svg-inline--fa fa-check" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>
+                                            <span>Anthem</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-4">
+                                    <h4 class="font-semibold text-gray-800">Coverage Details</h4>
+                                    <div class="space-y-3 text-sm text-gray-600">
+                                        <div class="flex items-start space-x-3">
+                                            <i class="text-blue-gentle mt-1" data-fa-i2svg=""><svg class="svg-inline--fa fa-circle-info" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-info" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg></i>
+                                            <span>Most insurance plans cover 80-100% of therapy costs</span>
+                                        </div>
+                                        <div class="flex items-start space-x-3">
+                                            <i class="text-teal-soft mt-1" data-fa-i2svg=""><svg class="svg-inline--fa fa-dollar-sign" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="dollar-sign" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M160 0c17.7 0 32 14.3 32 32V67.7c1.6 .2 3.1 .4 4.7 .7c.4 .1 .7 .1 1.1 .2l48 8.8c17.4 3.2 28.9 19.9 25.7 37.2s-19.9 28.9-37.2 25.7l-47.5-8.7c-31.3-4.6-58.9-1.5-78.3 6.2s-27.2 18.3-29 28.1c-2 10.7-.5 16.7 1.2 20.4c1.8 3.9 5.5 8.3 12.8 13.2c16.3 10.7 41.3 17.7 73.7 26.3l2.9 .8c28.6 7.6 63.6 16.8 89.6 33.8c14.2 9.3 27.6 21.9 35.9 39.5c8.5 17.9 10.3 37.9 6.4 59.2c-6.9 38-33.1 63.4-65.6 76.7c-13.7 5.6-28.6 9.2-44.4 11V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V445.1c-.4-.1-.9-.1-1.3-.2l-.2 0 0 0c-24.4-3.8-64.5-14.3-91.5-26.3c-16.1-7.2-23.4-26.1-16.2-42.2s26.1-23.4 42.2-16.2c20.9 9.3 55.3 18.5 75.2 21.6c31.9 4.7 58.2 2 76-5.3c16.9-6.9 24.6-16.9 26.8-28.9c1.9-10.6 .4-16.7-1.3-20.4c-1.9-4-5.6-8.4-13-13.3c-16.4-10.7-41.5-17.7-74-26.3l-2.8-.7 0 0C119.4 279.3 84.4 270 58.4 253c-14.2-9.3-27.5-22-35.8-39.6c-8.4-17.9-10.1-37.9-6.1-59.2C23.7 116 52.3 91.2 84.8 78.3c13.3-5.3 27.9-8.9 43.2-11V32c0-17.7 14.3-32 32-32z"></path></svg></i>
+                                            <span>Typical copay ranges from $20-$50 per session</span>
+                                        </div>
+                                        <div class="flex items-start space-x-3">
+                                            <i class="text-blue-gentle mt-1" data-fa-i2svg=""><svg class="svg-inline--fa fa-phone" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path></svg></i>
+                                            <span>We'll verify your benefits before your first session</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-br from-gray-50 to-blue-50 rounded-3xl p-8" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <h3 class="text-xl font-bold text-gray-800 mb-4">Financial Assistance</h3>
+                            <p class="text-gray-600 mb-6">
+                                Limited sliding scale spots available for individuals experiencing financial hardship. Contact us to discuss options.
+                            </p>
+                            <button class="w-full bg-gradient-to-r from-teal-soft to-blue-gentle text-white py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300" style="transform: scale(1);">
+                                Check Insurance Benefits
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">
+                        Start Your Journey Today
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                        Ready to take the first step? Schedule your free consultation or get in touch with any questions about therapy services.
+                    </p>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-16">
+                    <div class="space-y-8" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <div class="bg-white rounded-3xl p-8 shadow-lg" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-6">Contact Information</h3>
+                            <div class="space-y-6">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center flex-shrink-0">
+                                        <i class="text-white" data-fa-i2svg=""><svg class="svg-inline--fa fa-phone" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path></svg></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800">Phone</h4>
+                                        <p class="text-gray-600">(555) 123-4567</p>
+                                        <p class="text-sm text-gray-500">Available Mon-Fri, 9AM-6PM</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 rounded-full bg-gradient-to-r from-blue-gentle to-teal-soft flex items-center justify-center flex-shrink-0">
+                                        <i class="text-white" data-fa-i2svg=""><svg class="svg-inline--fa fa-envelope" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800">Email</h4>
+                                        <p class="text-gray-600">dr.thompson@prudentiapsych.com</p>
+                                        <p class="text-sm text-gray-500">Response within 24 hours</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center flex-shrink-0">
+                                        <i class="text-white" data-fa-i2svg=""><svg class="svg-inline--fa fa-location-dot" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="location-dot" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"></path></svg></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800">Office Location</h4>
+                                        <p class="text-gray-600">123 Wellness Boulevard<br>Suite 200, San Francisco, CA 94102</p>
+                                        <p class="text-sm text-gray-500">Telehealth sessions also available</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-3xl p-8 shadow-lg" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-6">Office Hours</h3>
+                            <div class="space-y-3">
+                                <div class="flex justify-between items-center py-2 border-b border-gray-100">
+                                    <span class="text-gray-700">Monday - Thursday</span>
+                                    <span class="font-semibold text-gray-800">9:00 AM - 7:00 PM</span>
+                                </div>
+                                <div class="flex justify-between items-center py-2 border-b border-gray-100">
+                                    <span class="text-gray-700">Friday</span>
+                                    <span class="font-semibold text-gray-800">9:00 AM - 5:00 PM</span>
+                                </div>
+                                <div class="flex justify-between items-center py-2 border-b border-gray-100">
+                                    <span class="text-gray-700">Saturday</span>
+                                    <span class="font-semibold text-gray-800">10:00 AM - 3:00 PM</span>
+                                </div>
+                                <div class="flex justify-between items-center py-2">
+                                    <span class="text-gray-700">Sunday</span>
+                                    <span class="text-gray-500">Closed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-3xl p-8 shadow-lg" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Schedule Your Free Consultation</h3>
+                        <form class="space-y-6">
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">First Name</label>
+                                    <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-teal-soft focus:border-transparent transition-all duration-300">
+                                </div>
+                                <div style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">Last Name</label>
+                                    <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-teal-soft focus:border-transparent transition-all duration-300">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                                <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-teal-soft focus:border-transparent transition-all duration-300">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                                <input type="tel" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-teal-soft focus:border-transparent transition-all duration-300">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Preferred Session Type</label>
+                                <select class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-teal-soft focus:border-transparent transition-all duration-300">
+                                    <option>In-Person Session</option>
+                                    <option>Telehealth Session</option>
+                                    <option>Either Option</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">What brings you to therapy?</label>
+                                <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-teal-soft focus:border-transparent transition-all duration-300" placeholder="Brief description of your concerns or goals..."></textarea>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <input type="checkbox" class="mt-1 rounded border-gray-300 text-teal-soft focus:ring-teal-soft">
+                                <label class="text-sm text-gray-600">I agree to the privacy policy and consent to being contacted about scheduling.</label>
+                            </div>
+                            <button type="submit" class="w-full bg-gradient-to-r from-teal-soft to-blue-gentle text-white py-4 rounded-xl font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                Schedule Free Consultation
+                            </button>
+                        </form>
+                        <div class="mt-6 text-center">
+                            <p class="text-sm text-gray-500">
+                                By submitting this form, you agree to our privacy policy. All information is kept strictly confidential.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-4 gap-8">
+                <div class="lg:col-span-2" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-12 h-12 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center">
+                            <i class="text-white text-xl" data-fa-i2svg=""><svg class="svg-inline--fa fa-brain" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="brain" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M184 0c30.9 0 56 25.1 56 56V456c0 30.9-25.1 56-56 56c-28.9 0-52.7-21.9-55.7-50.1c-5.2 1.4-10.7 2.1-16.3 2.1c-35.3 0-64-28.7-64-64c0-7.4 1.3-14.6 3.6-21.2C21.4 367.4 0 338.2 0 304c0-31.9 18.7-59.5 45.8-72.3C37.1 220.8 32 207 32 192c0-30.7 21.6-56.3 50.4-62.6C80.8 123.9 80 118 80 112c0-29.9 20.6-55.1 48.3-62.1C131.3 21.9 155.1 0 184 0zM328 0c28.9 0 52.6 21.9 55.7 49.9c27.8 7 48.3 32.1 48.3 62.1c0 6-.8 11.9-2.4 17.4c28.8 6.2 50.4 31.9 50.4 62.6c0 15-5.1 28.8-13.8 39.7C493.3 244.5 512 272.1 512 304c0 34.2-21.4 63.4-51.6 74.8c2.3 6.6 3.6 13.8 3.6 21.2c0 35.3-28.7 64-64 64c-5.6 0-11.1-.7-16.3-2.1c-3 28.2-26.8 50.1-55.7 50.1c-30.9 0-56-25.1-56-56V56c0-30.9 25.1-56 56-56z"></path></svg></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold">PRUDENTIA</h3>
+                            <p class="text-sm text-gray-400">Psychological Services</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed mb-6 max-w-md">
+                        Empowering individuals to overcome challenges and achieve mental wellness through evidence-based Cognitive Behavioral Therapy.
+                    </p>
+                    <div class="flex space-x-4">
+                        <span class="w-10 h-10 rounded-full bg-gray-800 hover:bg-teal-soft flex items-center justify-center transition-colors duration-300 cursor-pointer">
+                            <i class="text-sm" data-fa-i2svg=""><svg class="svg-inline--fa fa-linkedin" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></i>
+                        </span>
+                        <span class="w-10 h-10 rounded-full bg-gray-800 hover:bg-blue-gentle flex items-center justify-center transition-colors duration-300 cursor-pointer">
+                            <i class="text-sm" data-fa-i2svg=""><svg class="svg-inline--fa fa-psychology-today" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="psychology-today" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><g class="missing"><path fill="currentColor" d="M156.5,447.7l-12.6,29.5c-18.7-9.5-35.9-21.2-51.5-34.9l22.7-22.7C127.6,430.5,141.5,440,156.5,447.7z M40.6,272H8.5 c1.4,21.2,5.4,41.7,11.7,61.1L50,321.2C45.1,305.5,41.8,289,40.6,272z M40.6,240c1.4-18.8,5.2-37,11.1-54.1l-29.5-12.6 C14.7,194.3,10,216.7,8.5,240H40.6z M64.3,156.5c7.8-14.9,17.2-28.8,28.1-41.5L69.7,92.3c-13.7,15.6-25.5,32.8-34.9,51.5 L64.3,156.5z M397,419.6c-13.9,12-29.4,22.3-46.1,30.4l11.9,29.8c20.7-9.9,39.8-22.6,56.9-37.6L397,419.6z M115,92.4 c13.9-12,29.4-22.3,46.1-30.4l-11.9-29.8c-20.7,9.9-39.8,22.6-56.8,37.6L115,92.4z M447.7,355.5c-7.8,14.9-17.2,28.8-28.1,41.5 l22.7,22.7c13.7-15.6,25.5-32.9,34.9-51.5L447.7,355.5z M471.4,272c-1.4,18.8-5.2,37-11.1,54.1l29.5,12.6 c7.5-21.1,12.2-43.5,13.6-66.8H471.4z M321.2,462c-15.7,5-32.2,8.2-49.2,9.4v32.1c21.2-1.4,41.7-5.4,61.1-11.7L321.2,462z M240,471.4c-18.8-1.4-37-5.2-54.1-11.1l-12.6,29.5c21.1,7.5,43.5,12.2,66.8,13.6V471.4z M462,190.8c5,15.7,8.2,32.2,9.4,49.2h32.1 c-1.4-21.2-5.4-41.7-11.7-61.1L462,190.8z M92.4,397c-12-13.9-22.3-29.4-30.4-46.1l-29.8,11.9c9.9,20.7,22.6,39.8,37.6,56.9 L92.4,397z M272,40.6c18.8,1.4,36.9,5.2,54.1,11.1l12.6-29.5C317.7,14.7,295.3,10,272,8.5V40.6z M190.8,50 c15.7-5,32.2-8.2,49.2-9.4V8.5c-21.2,1.4-41.7,5.4-61.1,11.7L190.8,50z M442.3,92.3L419.6,115c12,13.9,22.3,29.4,30.5,46.1 l29.8-11.9C470,128.5,457.3,109.4,442.3,92.3z M397,92.4l22.7-22.7c-15.6-13.7-32.8-25.5-51.5-34.9l-12.6,29.5 C370.4,72.1,384.4,81.5,397,92.4z"></path><circle fill="currentColor" cx="256" cy="364" r="28"><animate attributeType="XML" repeatCount="indefinite" dur="2s" attributeName="r" values="28;14;28;28;14;28;"></animate><animate attributeType="XML" repeatCount="indefinite" dur="2s" attributeName="opacity" values="1;0;1;1;0;1;"></animate></circle><path fill="currentColor" opacity="1" d="M263.7,312h-16c-6.6,0-12-5.4-12-12c0-71,77.4-63.9,77.4-107.8c0-20-17.8-40.2-57.4-40.2c-29.1,0-44.3,9.6-59.2,28.7 c-3.9,5-11.1,6-16.2,2.4l-13.1-9.2c-5.6-3.9-6.9-11.8-2.6-17.2c21.2-27.2,46.4-44.7,91.2-44.7c52.3,0,97.4,29.8,97.4,80.2 c0,67.6-77.4,63.5-77.4,107.8C275.7,306.6,270.3,312,263.7,312z"><animate attributeType="XML" repeatCount="indefinite" dur="2s" attributeName="opacity" values="1;0;0;0;0;1;"></animate></path><path fill="currentColor" opacity="0" d="M232.5,134.5l7,168c0.3,6.4,5.6,11.5,12,11.5h9c6.4,0,11.7-5.1,12-11.5l7-168c0.3-6.8-5.2-12.5-12-12.5h-23 C237.7,122,232.2,127.7,232.5,134.5z"><animate attributeType="XML" repeatCount="indefinite" dur="2s" attributeName="opacity" values="0;0;1;1;0;0;"></animate></path></g></svg></i>
+                        </span>
+                        <span class="w-10 h-10 rounded-full bg-gray-800 hover:bg-teal-soft flex items-center justify-center transition-colors duration-300 cursor-pointer">
+                            <i class="text-sm" data-fa-i2svg=""><svg class="svg-inline--fa fa-google" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512" data-fa-i2svg=""><path fill="currentColor" d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"></path></svg></i>
+                        </span>
+                    </div>
+                </div>
+                <div style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                    <h4 class="text-lg font-semibold mb-6">Quick Links</h4>
+                    <div class="space-y-3">
+                        <span class="block text-gray-300 hover:text-teal-soft transition-colors duration-300 cursor-pointer">About Dr. Thompson</span>
+                        <span class="block text-gray-300 hover:text-teal-soft transition-colors duration-300 cursor-pointer">Services</span>
+                        <span class="block text-gray-300 hover:text-teal-soft transition-colors duration-300 cursor-pointer">Treatment Approach</span>
+                        <span class="block text-gray-300 hover:text-teal-soft transition-colors duration-300 cursor-pointer">Pricing &amp; Insurance</span>
+                        <span class="block text-gray-300 hover:text-teal-soft transition-colors duration-300 cursor-pointer">Contact</span>
+                    </div>
+                </div>
+                <div style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                    <h4 class="text-lg font-semibold mb-6">Resources</h4>
+                    <div class="space-y-3">
+                        <span class="block text-gray-300 hover:text-blue-gentle transition-colors duration-300 cursor-pointer">Mental Health Blog</span>
+                        <span class="block text-gray-300 hover:text-blue-gentle transition-colors duration-300 cursor-pointer">Self-Help Tools</span>
+                        <span class="block text-gray-300 hover:text-blue-gentle transition-colors duration-300 cursor-pointer">Crisis Resources</span>
+                        <span class="block text-gray-300 hover:text-blue-gentle transition-colors duration-300 cursor-pointer">FAQ</span>
+                        <span class="block text-gray-300 hover:text-blue-gentle transition-colors duration-300 cursor-pointer">Privacy Policy</span>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm">
+                        © 2024 Prudentia Psychological Services. All rights reserved.
+                    </p>
+                    <div class="flex space-x-6 mt-4 md:mt-0">
+                        <span class="text-gray-400 hover:text-white text-sm transition-colors duration-300 cursor-pointer">Terms of Service</span>
+                        <span class="text-gray-400 hover:text-white text-sm transition-colors duration-300 cursor-pointer">Privacy Policy</span>
+                        <span class="text-gray-400 hover:text-white text-sm transition-colors duration-300 cursor-pointer">HIPAA Notice</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('button');
+            const links = document.querySelectorAll('a[href^="#"]');
+            
+            buttons.forEach(button => {
+                button.addEventListener('mouseenter', function() {
+                    this.style.transform = 'scale(1.05)';
+                });
+                
+                button.addEventListener('mouseleave', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+            
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    if (targetSection) {
+                        targetSection.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+            
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+            
+            const animatedElements = document.querySelectorAll('.grid > div, .space-y-8 > div');
+            animatedElements.forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'all 0.6s ease-out';
+                observer.observe(el);
+            });
+        });
+    </script>
+
+
+</body>
