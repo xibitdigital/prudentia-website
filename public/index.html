@@ -733,27 +733,41 @@ Tools and techniques to help you understand and work with your emotions in a hea
                             }
                         });
 
+                        const data = await response.json();
+
                         // Reset button state
                         submitBtn.disabled = false;
                         btnText.classList.remove('hidden');
                         btnLoading.classList.add('hidden');
 
-                        // Show success message
-                        formMessage.classList.remove('hidden');
-                        successMessage.classList.remove('hidden');
-                        errorMessage.classList.add('hidden');
+                        if (response.ok && data.success) {
+                            // Show success message
+                            formMessage.classList.remove('hidden');
+                            successMessage.classList.remove('hidden');
+                            errorMessage.classList.add('hidden');
 
-                        // Reset form
-                        form.reset();
+                            // Reset form
+                            form.reset();
 
-                        // Scroll to message
-                        formMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                            // Scroll to message
+                            formMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
-                        // Hide message after 5 seconds
-                        setTimeout(() => {
-                            formMessage.classList.add('hidden');
+                            // Hide message after 5 seconds
+                            setTimeout(() => {
+                                formMessage.classList.add('hidden');
+                                successMessage.classList.add('hidden');
+                            }, 5000);
+                        } else {
+                            // Show error message
+                            formMessage.classList.remove('hidden');
+                            errorMessage.classList.remove('hidden');
                             successMessage.classList.add('hidden');
-                        }, 5000);
+                            formMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                            setTimeout(() => {
+                                formMessage.classList.add('hidden');
+                                errorMessage.classList.add('hidden');
+                            }, 5000);
+                        }
 
                     } catch (error) {
                         // Reset button state
