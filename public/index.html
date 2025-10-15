@@ -559,7 +559,7 @@ Tools and techniques to help you understand and work with your emotions in a hea
                     </div>
                     <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
                         <h3 class="text-2xl font-bold text-gray-800 mb-6">Request Your Free Online / Phone Consultation</h3>
-                        <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+                        <form action="https://api.web3forms.com/submit" method="POST" id="form" class="space-y-6">
                             <input type="hidden" name="access_key" value="682b29d2-eb1e-48de-8377-60447b9f871b">
                             <input type="hidden" name="subject" value="New Consultation Request from Prudentia Website">
                             <input type="hidden" name="from_name" value="Prudentia Website">
@@ -725,10 +725,14 @@ Tools and techniques to help you understand and work with your emotions in a hea
 
                     try {
                         const formData = new FormData(form);
+                        const object = Object.fromEntries(formData);
+                        const json = JSON.stringify(object);
+
                         const response = await fetch(form.action, {
                             method: 'POST',
-                            body: formData,
+                            body: json,
                             headers: {
+                                'Content-Type': 'application/json',
                                 'Accept': 'application/json'
                             }
                         });
