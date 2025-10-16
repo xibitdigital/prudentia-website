@@ -46,7 +46,7 @@
       <div class="max-w-7xl mx-auto px-6 py-4">
         <div class="flex items-center justify-between">
           <div class="flex items-center">
-            <img src="Prudentia logo.svg" alt="Prudentia Psychological Services" class="h-24" />
+            <img src="Prudentia logo.svg" alt="Prudentia Psychological Services" class="h-16 md:h-24" />
           </div>
           <nav class="hidden md:flex items-center space-x-8">
             <a
@@ -86,7 +86,7 @@
               Free Consultation
             </a>
           </nav>
-          <button class="md:hidden text-gray-700">
+          <button id="mobileMenuBtn" class="md:hidden text-gray-700">
             <i class="text-xl" data-fa-i2svg=""
               ><svg
                 class="svg-inline--fa fa-bars"
@@ -109,8 +109,54 @@
       </div>
     </header>
 
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden fixed top-0 left-0 right-0 bottom-0 bg-gray-900/95 z-40 md:hidden">
+      <div class="flex flex-col items-center justify-center h-full space-y-6">
+        <button id="closeMobileMenu" class="absolute top-6 right-6 text-white text-3xl">
+          <i class="fa-solid fa-times"></i>
+        </button>
+        <a href="#about" class="text-white text-2xl font-medium hover:text-teal-soft transition-colors mobile-menu-link"
+          >About</a
+        >
+        <a
+          href="#services"
+          class="text-white text-2xl font-medium hover:text-teal-soft transition-colors mobile-menu-link"
+          >Services</a
+        >
+        <a
+          href="#approach"
+          class="text-white text-2xl font-medium hover:text-teal-soft transition-colors mobile-menu-link"
+          >Approach</a
+        >
+        <a
+          href="#testimonials"
+          class="text-white text-2xl font-medium hover:text-teal-soft transition-colors mobile-menu-link"
+          >Testimonials</a
+        >
+        <a
+          href="#pricing"
+          class="text-white text-2xl font-medium hover:text-teal-soft transition-colors mobile-menu-link"
+          >Pricing</a
+        >
+        <a
+          href="#contact"
+          class="text-white text-2xl font-medium hover:text-teal-soft transition-colors mobile-menu-link"
+          >Contact</a
+        >
+        <a
+          href="#contact"
+          class="bg-gradient-to-r from-teal-soft to-blue-gentle text-white px-8 py-3 rounded-full font-semibold hover:shadow-xl transition-all duration-300 mobile-menu-link"
+        >
+          Free Consultation
+        </a>
+      </div>
+    </div>
+
     <main id="main-content">
-      <section id="hero" class="pt-24 bg-gradient-to-br from-blue-50 via-white to-teal-50 h-[700px] flex items-center">
+      <section
+        id="hero"
+        class="pt-32 md:pt-24 bg-gradient-to-br from-blue-50 via-white to-teal-50 min-h-[700px] flex items-center"
+      >
         <div class="max-w-7xl mx-auto px-6">
           <div class="grid lg:grid-cols-2 gap-12 items-center">
             <div class="space-y-8" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out">
@@ -1585,149 +1631,6 @@
       </div>
     </footer>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const buttons = document.querySelectorAll("button");
-        const links = document.querySelectorAll('a[href^="#"]');
-
-        buttons.forEach((button) => {
-          button.addEventListener("mouseenter", function () {
-            this.style.transform = "scale(1.05)";
-          });
-
-          button.addEventListener("mouseleave", function () {
-            this.style.transform = "scale(1)";
-          });
-        });
-
-        links.forEach((link) => {
-          link.addEventListener("click", function (e) {
-            e.preventDefault();
-            const targetId = this.getAttribute("href");
-            const targetSection = document.querySelector(targetId);
-            if (targetSection) {
-              const headerHeight = document.getElementById("header").offsetHeight;
-              const targetPosition = targetSection.offsetTop - headerHeight - 20;
-              window.scrollTo({
-                top: targetPosition,
-                behavior: "smooth",
-              });
-            }
-          });
-        });
-
-        // Form submission handling
-        const form = document.querySelector('form[action*="web3forms.com"]');
-        if (form) {
-          form.addEventListener("submit", async function (e) {
-            e.preventDefault();
-
-            const submitBtn = document.getElementById("submitBtn");
-            const btnText = document.getElementById("btnText");
-            const btnLoading = document.getElementById("btnLoading");
-            const formMessage = document.getElementById("formMessage");
-            const successMessage = document.getElementById("successMessage");
-            const errorMessage = document.getElementById("errorMessage");
-
-            // Show loading state
-            submitBtn.disabled = true;
-            btnText.classList.add("hidden");
-            btnLoading.classList.remove("hidden");
-
-            try {
-              const formData = new FormData(form);
-              const object = Object.fromEntries(formData);
-              const json = JSON.stringify(object);
-
-              const response = await fetch(form.action, {
-                method: "POST",
-                body: json,
-                headers: {
-                  "Content-Type": "application/json",
-                  Accept: "application/json",
-                },
-              });
-
-              const data = await response.json();
-
-              // Reset button state
-              submitBtn.disabled = false;
-              btnText.classList.remove("hidden");
-              btnLoading.classList.add("hidden");
-
-              if (response.ok && data.success) {
-                // Show success message
-                formMessage.classList.remove("hidden");
-                successMessage.classList.remove("hidden");
-                errorMessage.classList.add("hidden");
-
-                // Reset form
-                form.reset();
-
-                // Scroll to message
-                formMessage.scrollIntoView({ behavior: "smooth", block: "nearest" });
-
-                // Hide message after 5 seconds
-                setTimeout(() => {
-                  formMessage.classList.add("hidden");
-                  successMessage.classList.add("hidden");
-                }, 5000);
-              } else {
-                // Show error message
-                formMessage.classList.remove("hidden");
-                errorMessage.classList.remove("hidden");
-                successMessage.classList.add("hidden");
-                formMessage.scrollIntoView({ behavior: "smooth", block: "nearest" });
-                setTimeout(() => {
-                  formMessage.classList.add("hidden");
-                  errorMessage.classList.add("hidden");
-                }, 5000);
-              }
-            } catch (error) {
-              // Reset button state
-              submitBtn.disabled = false;
-              btnText.classList.remove("hidden");
-              btnLoading.classList.add("hidden");
-
-              // Show error message
-              formMessage.classList.remove("hidden");
-              errorMessage.classList.remove("hidden");
-              successMessage.classList.add("hidden");
-
-              // Scroll to message
-              formMessage.scrollIntoView({ behavior: "smooth", block: "nearest" });
-
-              // Hide message after 5 seconds
-              setTimeout(() => {
-                formMessage.classList.add("hidden");
-                errorMessage.classList.add("hidden");
-              }, 5000);
-            }
-          });
-        }
-
-        const observerOptions = {
-          threshold: 0.1,
-          rootMargin: "0px 0px -50px 0px",
-        };
-
-        const observer = new IntersectionObserver(function (entries) {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.style.opacity = "1";
-              entry.target.style.transform = "translateY(0)";
-            }
-          });
-        }, observerOptions);
-
-        const animatedElements = document.querySelectorAll(".grid > div, .space-y-8 > div");
-        animatedElements.forEach((el) => {
-          el.style.opacity = "0";
-          el.style.transform = "translateY(20px)";
-          el.style.transition = "all 0.6s ease-out";
-          observer.observe(el);
-        });
-      });
-    </script>
+    <script src="form.js"></script>
   </body>
 </html>
