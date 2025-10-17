@@ -416,26 +416,6 @@
                   ></i>
                   <span class="font-medium">Online</span>
                 </div>
-                <div class="flex items-center space-x-2">
-                  <i class="text-blue-gentle" data-fa-i2svg=""
-                    ><svg
-                      class="svg-inline--fa fa-location-dot"
-                      aria-hidden="true"
-                      focusable="false"
-                      data-prefix="fas"
-                      data-icon="location-dot"
-                      role="img"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 384 512"
-                      data-fa-i2svg=""
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
-                      ></path></svg
-                  ></i>
-                  <span class="font-medium">In-Person</span>
-                </div>
               </div>
             </div>
           </div>
@@ -1453,7 +1433,7 @@
                 <h3 class="text-2xl font-bold text-gray-800 mb-6">Insurance Coverage</h3>
                 <div class="space-y-6">
                   <div class="bg-gradient-to-r from-teal-50 to-blue-50 rounded-2xl p-6">
-                    <h4 class="font-semibold text-gray-800 mb-3">Recognised by:</h4>
+                    <h4 class="font-semibold text-gray-800 mb-3 pb-2">Recognised by:</h4>
                     <div class="grid grid-cols-2 gap-4 text-sm">
                       <div
                         class="flex items-center justify-center space-x-2"
@@ -1615,7 +1595,7 @@
                   </div>
                   <div class="flex justify-between items-center py-2 border-b border-gray-100">
                     <span class="text-gray-700">Thursday - Friday</span>
-                    <span class="font-semibold text-gray-800">Mornings, Afternoons, Evenings</span>
+                    <span class="font-semibold text-gray-800 text-right ml-auto">Mornings, Afternoons, Evenings</span>
                   </div>
                   <div class="flex justify-between items-center py-2 border-b border-gray-100">
                     <span class="text-gray-700">Saturday</span>
@@ -1675,14 +1655,14 @@
                   />
                 </div>
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2">Preferred Session Type</label>
+                  <label class="block text-sm font-medium text-gray-700 mb-2">Preferred Time</label>
                   <select
-                    name="sessionType"
+                    name="sessionTime"
                     class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-teal-soft focus:border-transparent transition-all duration-300"
                   >
-                    <option>Online Session</option>
-                    <option>In-Person Session</option>
-                    <option>Either Option</option>
+                    <option>Mornings</option>
+                    <option>Afternoons</option>
+                    <option>Evenings</option>
                   </select>
                 </div>
                 <div>
