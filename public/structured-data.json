@@ -183,9 +183,10 @@
       "closes": "23:59"
     }
   ],
-  "paymentAccepted": "Credit Card, Debit Card, Bank Transfer",
+  "paymentAccepted": "Credit Card, Debit Card, Bank Transfer, Insurance",
   "currenciesAccepted": "GBP",
   "acceptsReservations": "true",
+  "insuranceAccepted": ["Aviva", "Vitality", "AXA", "WPA", "Allianz"],
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5",
