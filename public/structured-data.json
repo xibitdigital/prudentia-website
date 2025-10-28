@@ -7,7 +7,7 @@
   "url": "https://prudentiaps.com",
   "logo": "https://prudentiaps.com/logo-512x512.png",
   "image": "https://prudentiaps.com/og-image.png",
-  "description": "Professional CBT therapy services in London with Dr. Sonia Sangalli, Chartered Counselling Psychologist specialising in anxiety, depression, and emotional wellbeing.",
+  "description": "Professional online CBT therapy services with Dr. Sonia Sangalli, London-based Chartered Counselling Psychologist specialising in anxiety, depression, and emotional wellbeing. Serving clients worldwide.",
   "foundingDate": "2011",
   "slogan": "Evidence-based CBT therapy for lasting change",
   "priceRange": "£120-£155",
@@ -26,10 +26,20 @@
     "latitude": "51.5074",
     "longitude": "-0.1278"
   },
-  "areaServed": {
-    "@type": "City",
-    "name": "London"
-  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "London"
+    },
+    {
+      "@type": "Country",
+      "name": "United Kingdom"
+    },
+    {
+      "@type": "Place",
+      "name": "Worldwide"
+    }
+  ],
   "serviceType": [
     "Cognitive Behavioural Therapy",
     "Anxiety Treatment",
@@ -186,7 +196,7 @@
   "paymentAccepted": "Credit Card, Debit Card, Bank Transfer, Insurance",
   "currenciesAccepted": "GBP",
   "acceptsReservations": "true",
-  "insuranceAccepted": ["Aviva", "Vitality", "AXA", "WPA", "Allianz"],
+  "insuranceAccepted": ["Aviva", "Vitality", "AXA", "WPA", "Allianz", "Bupa"],
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5",
