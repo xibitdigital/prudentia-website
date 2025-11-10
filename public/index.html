@@ -75,7 +75,261 @@
     <link rel="stylesheet" href="tailwind.css" />
 
     <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json" src="structured-data.json"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://prudentiaps.com/#organization",
+        "name": "Prudentia Psychological Services",
+        "alternateName": "Dr. Sonia Sangalli - Chartered Psychologist",
+        "url": "https://prudentiaps.com",
+        "logo": "https://prudentiaps.com/logo-512x512.png",
+        "image": "https://prudentiaps.com/og-image.png",
+        "description": "Professional online CBT therapy services with Dr. Sonia Sangalli, London-based Chartered Counselling Psychologist specialising in anxiety, depression, and emotional wellbeing. Serving clients worldwide.",
+        "foundingDate": "2011",
+        "slogan": "Evidence-based CBT therapy for lasting change",
+        "priceRange": "£120-£155",
+        "email": "hello@prudentiaps.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/drsoniagreenidge/",
+          "https://www.psychologytoday.com/gb/counselling/sonia-sangalli-london/1622439"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "London",
+          "addressCountry": "GB"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "51.5074",
+          "longitude": "-0.1278"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "London"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Place",
+            "name": "Worldwide"
+          }
+        ],
+        "serviceType": [
+          "Cognitive Behavioural Therapy",
+          "Anxiety Treatment",
+          "Depression Counselling",
+          "Stress Management",
+          "Emotional Regulation Therapy",
+          "Personal Development"
+        ],
+        "founder": {
+          "@type": "Person",
+          "name": "Dr. Sonia Sangalli",
+          "jobTitle": "Chartered Counselling Psychologist",
+          "credentials": "CPsychol, HCPC Registered",
+          "sameAs": [
+            "https://www.linkedin.com/in/drsoniagreenidge/",
+            "https://www.psychologytoday.com/gb/counselling/sonia-sangalli-london/1622439"
+          ],
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University College London"
+          },
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "University College London"
+          },
+          "knowsAbout": [
+            "Cognitive Behavioural Therapy",
+            "Anxiety Treatment",
+            "Depression Counselling",
+            "Stress Management",
+            "Emotional Regulation",
+            "Evidence-based Psychotherapy"
+          ],
+          "memberOf": [
+            {
+              "@type": "Organization",
+              "name": "British Psychological Society"
+            },
+            {
+              "@type": "Organization",
+              "name": "Health and Care Professions Council"
+            },
+            {
+              "@type": "Organization",
+              "name": "British Association for Behavioural and Cognitive Psychotherapies",
+              "alternateName": "BABCP"
+            }
+          ]
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "CBT Therapy Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "price": "120-155",
+              "priceCurrency": "GBP",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "120",
+                "maxPrice": "155",
+                "priceCurrency": "GBP"
+              },
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Anxiety Treatment",
+                "description": "Specialist CBT-based anxiety management and treatment for generalised anxiety, social anxiety, and panic disorders",
+                "category": "Mental Health",
+                "serviceType": "Cognitive Behavioural Therapy"
+              }
+            },
+            {
+              "@type": "Offer",
+              "price": "120-155",
+              "priceCurrency": "GBP",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "120",
+                "maxPrice": "155",
+                "priceCurrency": "GBP"
+              },
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Depression Therapy",
+                "description": "Evidence-based depression treatment using proven CBT techniques to address low mood and negative thinking patterns",
+                "category": "Mental Health",
+                "serviceType": "Cognitive Behavioural Therapy"
+              }
+            },
+            {
+              "@type": "Offer",
+              "price": "120-155",
+              "priceCurrency": "GBP",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "120",
+                "maxPrice": "155",
+                "priceCurrency": "GBP"
+              },
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Stress Management",
+                "description": "Practical stress reduction techniques and coping strategies for work-related and personal stress",
+                "category": "Mental Health",
+                "serviceType": "Cognitive Behavioural Therapy"
+              }
+            },
+            {
+              "@type": "Offer",
+              "price": "120-155",
+              "priceCurrency": "GBP",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "120",
+                "maxPrice": "155",
+                "priceCurrency": "GBP"
+              },
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Emotional Regulation Therapy",
+                "description": "Developing skills to manage and regulate emotional responses effectively",
+                "category": "Mental Health",
+                "serviceType": "Cognitive Behavioural Therapy"
+              }
+            }
+          ]
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday"],
+            "opens": "17:00",
+            "closes": "21:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "21:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "09:00",
+            "closes": "17:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "00:00",
+            "closes": "23:59"
+          }
+        ],
+        "paymentAccepted": "Credit Card, Debit Card, Bank Transfer, Insurance",
+        "currenciesAccepted": "GBP",
+        "acceptsReservations": "true",
+        "insuranceAccepted": ["Aviva", "Vitality", "AXA", "WPA", "Allianz", "Bupa"],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "3",
+          "bestRating": "5"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Lin"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "datePublished": "2024-03-15",
+            "reviewBody": "I'm different from the person I was before in how I approach hurdles... don't get me wrong I still have them but it's like I've been reprogrammed to understand how to manage them. Thank you so much.",
+            "reviewAspect": "Effectiveness"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Eric"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "datePublished": "2024-06-20",
+            "reviewBody": "The effect of the sessions has been to dramatically lower my levels of anxiety, improve the quality (and number) of my personal relationships, improve my physical health through increased activity and massively enhance my confidence and enjoyment of life in general.",
+            "reviewAspect": "Overall Experience"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Mrs. O"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "datePublished": "2024-09-10",
+            "reviewBody": "I'm very grateful for everything…there's a lot more about emotions that I feel more comfortable with.",
+            "reviewAspect": "Emotional Support"
+          }
+        ]
+      }
+    </script>
   </head>
   <body class="font-inter bg-warm-white" data-new-gr-c-s-check-loaded="14.1257.0" data-gr-ext-installed="">
     <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
@@ -276,9 +530,15 @@
                 </h2>
                 <p class="text-lg text-gray-600 leading-relaxed">
                   Dr Sonia Sangalli is a Chartered Counselling Psychologist based in London with over 18 years clinical
-                  experience and a 16 year professional affiliation to University College London (UCL). She brings
-                  extensive expertise in evidence-based therapeutic approaches and is passionate about providing
-                  compassionate counselling to adults facing emotional and mental health challenges.
+                  experience and a 16 year professional affiliation to
+                  <a
+                    href="https://www.ucl.ac.uk/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-teal-soft hover:text-blue-gentle font-semibold transition-colors"
+                    >University College London (UCL)</a
+                  >. She brings extensive expertise in evidence-based therapeutic approaches and is passionate about
+                  providing compassionate counselling to adults facing emotional and mental health challenges.
                 </p>
               </div>
               <div class="space-y-4" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out">
@@ -331,33 +591,16 @@
                     ></i>
                   </div>
                   <div>
-                    <h4 class="font-semibold text-gray-800">British Psychological Society (BPS) Chartered</h4>
-                  </div>
-                </div>
-                <div class="flex items-start space-x-4">
-                  <div
-                    class="w-8 h-8 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center flex-shrink-0 mt-1"
-                  >
-                    <i class="text-white text-sm" data-fa-i2svg=""
-                      ><svg
-                        class="svg-inline--fa fa-award"
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="award"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 384 512"
-                        data-fa-i2svg=""
+                    <h4 class="font-semibold text-gray-800">
+                      <a
+                        href="https://www.bps.org.uk/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="hover:text-teal-soft transition-colors"
                       >
-                        <path
-                          fill="currentColor"
-                          d="M173.8 5.5c11-7.3 25.4-7.3 36.4 0L228 17.2c6 3.9 13 5.8 20.1 5.4l21.3-1.3c13.2-.8 25.6 6.4 31.5 18.2l9.6 19.1c3.2 6.4 8.4 11.5 14.7 14.7L344.5 83c11.8 5.9 19 18.3 18.2 31.5l-1.3 21.3c-.4 7.1 1.5 14.2 5.4 20.1l11.8 17.8c7.3 11 7.3 25.4 0 36.4L366.8 228c-3.9 6-5.8 13-5.4 20.1l1.3 21.3c.8 13.2-6.4 25.6-18.2 31.5l-19.1 9.6c-6.4 3.2-11.5 8.4-14.7 14.7L301 344.5c-5.9 11.8-18.3 19-31.5 18.2l-21.3-1.3c-7.1-.4-14.2 1.5-20.1 5.4l-17.8 11.8c-11 7.3-25.4 7.3-36.4 0L156 366.8c-6-3.9-13-5.8-20.1-5.4l-21.3 1.3c-13.2 .8-25.6-6.4-31.5-18.2l-9.6-19.1c-3.2-6.4-8.4-11.5-14.7-14.7L39.5 301c-11.8-5.9-19-18.3-18.2-31.5l1.3-21.3c.4-7.1-1.5-14.2-5.4-20.1L5.5 210.2c-7.3-11-7.3-25.4 0-36.4L17.2 156c3.9-6 5.8-13 5.4-20.1l-1.3-21.3c-.8-13.2 6.4-25.6 18.2-31.5l19.1-9.6C65 70.2 70.2 65 73.4 58.6L83 39.5c5.9-11.8 18.3-19 31.5-18.2l21.3 1.3c7.1 .4 14.2-1.5 20.1-5.4L173.8 5.5zM272 192a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM1.3 441.8L44.4 339.3c.2 .1 .3 .2 .4 .4l9.6 19.1c11.7 23.2 36 37.3 62 35.8l21.3-1.3c.2 0 .5 0 .7 .2l17.8 11.8c5.1 3.3 10.5 5.9 16.1 7.7l-37.6 89.3c-2.3 5.5-7.4 9.2-13.3 9.7s-11.6-2.2-14.8-7.2L74.4 455.5l-56.1 8.3c-5.7 .8-11.4-1.5-15-6s-4.3-10.7-2.1-16zm248 60.4L211.7 413c5.6-1.8 11-4.3 16.1-7.7l17.8-11.8c.2-.1 .4-.2 .7-.2l21.3 1.3c26 1.5 50.3-12.6 62-35.8l9.6-19.1c.1-.2 .2-.3 .4-.4l43.2 102.5c2.2 5.3 1.4 11.4-2.1 16s-9.3 6.9-15 6l-56.1-8.3-32.2 49.2c-3.2 5-8.9 7.7-14.8 7.2s-11-4.3-13.3-9.7z"
-                        ></path></svg
-                    ></i>
-                  </div>
-                  <div>
-                    <h4 class="font-semibold text-gray-800">Health and Care Professions Council (HCPC) Registered</h4>
+                        British Psychological Society (BPS) Chartered
+                      </a>
+                    </h4>
                   </div>
                 </div>
                 <div class="flex items-start space-x-4">
@@ -384,7 +627,49 @@
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-800">
-                      British Association for Behavioural and Cognitive Psychotherapies (BABCP) Accredited
+                      <a
+                        href="https://www.hcpc-uk.org/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="hover:text-teal-soft transition-colors"
+                      >
+                        Health and Care Professions Council (HCPC) Registered
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                  <div
+                    class="w-8 h-8 rounded-full bg-gradient-to-r from-teal-soft to-blue-gentle flex items-center justify-center flex-shrink-0 mt-1"
+                  >
+                    <i class="text-white text-sm" data-fa-i2svg=""
+                      ><svg
+                        class="svg-inline--fa fa-award"
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="award"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"
+                        data-fa-i2svg=""
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M173.8 5.5c11-7.3 25.4-7.3 36.4 0L228 17.2c6 3.9 13 5.8 20.1 5.4l21.3-1.3c13.2-.8 25.6 6.4 31.5 18.2l9.6 19.1c3.2 6.4 8.4 11.5 14.7 14.7L344.5 83c11.8 5.9 19 18.3 18.2 31.5l-1.3 21.3c-.4 7.1 1.5 14.2 5.4 20.1l11.8 17.8c7.3 11 7.3 25.4 0 36.4L366.8 228c-3.9 6-5.8 13-5.4 20.1l1.3 21.3c.8 13.2-6.4 25.6-18.2 31.5l-19.1 9.6c-6.4 3.2-11.5 8.4-14.7 14.7L301 344.5c-5.9 11.8-18.3 19-31.5 18.2l-21.3-1.3c-7.1-.4-14.2 1.5-20.1 5.4l-17.8 11.8c-11 7.3-25.4 7.3-36.4 0L156 366.8c-6-3.9-13-5.8-20.1-5.4l-21.3 1.3c-13.2 .8-25.6-6.4-31.5-18.2l-9.6-19.1c-3.2-6.4-8.4-11.5-14.7-14.7L39.5 301c-11.8-5.9-19-18.3-18.2-31.5l1.3-21.3c.4-7.1-1.5-14.2-5.4-20.1L5.5 210.2c-7.3-11-7.3-25.4 0-36.4L17.2 156c3.9-6 5.8-13 5.4-20.1l-1.3-21.3c-.8-13.2 6.4-25.6 18.2-31.5l19.1-9.6C65 70.2 70.2 65 73.4 58.6L83 39.5c5.9-11.8 18.3-19 31.5-18.2l21.3 1.3c7.1 .4 14.2-1.5 20.1-5.4L173.8 5.5zM272 192a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM1.3 441.8L44.4 339.3c.2 .1 .3 .2 .4 .4l9.6 19.1c11.7 23.2 36 37.3 62 35.8l21.3-1.3c.2 0 .5 0 .7 .2l17.8 11.8c5.1 3.3 10.5 5.9 16.1 7.7l-37.6 89.3c-2.3 5.5-7.4 9.2-13.3 9.7s-11.6-2.2-14.8-7.2L74.4 455.5l-56.1 8.3c-5.7 .8-11.4-1.5-15-6s-4.3-10.7-2.1-16zm248 60.4L211.7 413c5.6-1.8 11-4.3 16.1-7.7l17.8-11.8c.2-.1 .4-.2 .7-.2l21.3 1.3c26 1.5 50.3-12.6 62-35.8l9.6-19.1c.1-.2 .2-.3 .4-.4l43.2 102.5c2.2 5.3 1.4 11.4-2.1 16s-9.3 6.9-15 6l-56.1-8.3-32.2 49.2c-3.2 5-8.9 7.7-14.8 7.2s-11-4.3-13.3-9.7z"
+                        ></path></svg
+                    ></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800">
+                      <a
+                        href="https://www.babcp.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="hover:text-teal-soft transition-colors"
+                      >
+                        British Association for Behavioural and Cognitive Psychotherapies (BABCP) Accredited
+                      </a>
                     </h4>
                   </div>
                 </div>
@@ -1019,7 +1304,15 @@
                 <p class="text-lg text-gray-600 leading-relaxed">
                   CBT is a structured therapy that focuses on identifying and changing your relationship with your
                   thought patterns, emotions and behaviours. It's one of the most researched and effective forms of
-                  psychotherapy.
+                  psychotherapy,
+                  <a
+                    href="https://www.nhs.uk/mental-health/talking-therapies-medicine-treatments/talking-therapies-and-counselling/cognitive-behavioural-therapy-cbt/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-teal-soft hover:text-blue-gentle font-semibold transition-colors"
+                    >recommended by the NHS</a
+                  >
+                  for treating anxiety, depression, and other mental health conditions.
                 </p>
               </div>
               <div class="space-y-6" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out">
@@ -1282,42 +1575,94 @@
                         class="flex flex-col items-center justify-center space-y-2"
                         style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out"
                       >
-                        <img src="insurance-img.png" alt="Aviva" class="h-8 object-contain" />
+                        <a
+                          href="https://www.aviva.co.uk/health-insurance/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:opacity-75 transition-opacity"
+                        >
+                          <img src="insurance-img.png" alt="Aviva Health Insurance" class="h-8 object-contain" />
+                        </a>
                         <span>Aviva</span>
                       </div>
                       <div
                         class="flex flex-col items-center justify-center space-y-2"
                         style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out"
                       >
-                        <img src="axa-logo.svg" alt="AXA" class="h-8 object-contain" />
+                        <a
+                          href="https://www.axahealth.co.uk/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:opacity-75 transition-opacity"
+                        >
+                          <img src="axa-logo.svg" alt="AXA Health Insurance" class="h-8 object-contain" />
+                        </a>
                         <span>AXA</span>
                       </div>
                       <div
                         class="flex flex-col items-center justify-center space-y-2"
                         style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out"
                       >
-                        <img src="vitality.svg" alt="Vitality" class="h-8 object-contain" />
+                        <a
+                          href="https://www.vitality.co.uk/health-insurance/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:opacity-75 transition-opacity"
+                        >
+                          <img src="vitality.svg" alt="Vitality Health Insurance" class="h-8 object-contain" />
+                        </a>
                         <span>Vitality</span>
                       </div>
                       <div
                         class="flex flex-col items-center justify-center space-y-2"
                         style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out"
                       >
-                        <img src="wpa-logo.svg" alt="WPA" class="h-8 object-contain" />
+                        <a
+                          href="https://www.wpa.org.uk/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:opacity-75 transition-opacity"
+                        >
+                          <img src="wpa-logo.svg" alt="WPA Health Insurance" class="h-8 object-contain" />
+                        </a>
                         <span>WPA</span>
                       </div>
                       <div
                         class="flex flex-col items-center justify-center space-y-2"
                         style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out"
                       >
-                        <img src="allianz-logo.svg" alt="Allianz" class="h-8 object-contain" style="max-width: 80px" />
+                        <a
+                          href="https://www.allianzcare.com/en.html"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:opacity-75 transition-opacity"
+                        >
+                          <img
+                            src="allianz-logo.svg"
+                            alt="Allianz Health Insurance"
+                            class="h-8 object-contain"
+                            style="max-width: 80px"
+                          />
+                        </a>
                         <span>Allianz</span>
                       </div>
                       <div
                         class="flex flex-col items-center justify-center space-y-2"
                         style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out"
                       >
-                        <img src="Bupa_logo.svg" alt="Bupa" class="h-8 object-contain" style="max-width: 80px" />
+                        <a
+                          href="https://www.bupa.co.uk/health-insurance"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:opacity-75 transition-opacity"
+                        >
+                          <img
+                            src="Bupa_logo.svg"
+                            alt="Bupa Health Insurance"
+                            class="h-8 object-contain"
+                            style="max-width: 80px"
+                          />
+                        </a>
                         <span>Bupa</span>
                       </div>
                     </div>
@@ -1593,6 +1938,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="w-10 h-10 rounded-full bg-gray-800 hover:bg-teal-soft flex items-center justify-center transition-colors duration-300 cursor-pointer"
+                aria-label="LinkedIn Profile"
               >
                 <i class="text-sm" data-fa-i2svg=""
                   ><svg
@@ -1609,6 +1955,31 @@
                     <path
                       fill="currentColor"
                       d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                    ></path></svg
+                ></i>
+              </a>
+              <a
+                href="https://www.psychologytoday.com/gb/counselling/sonia-sangalli-london/1622439"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-10 h-10 rounded-full bg-gray-800 hover:bg-teal-soft flex items-center justify-center transition-colors duration-300 cursor-pointer"
+                aria-label="Psychology Today Profile"
+              >
+                <i class="text-sm" data-fa-i2svg=""
+                  ><svg
+                    class="svg-inline--fa fa-user-doctor"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="user-doctor"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                    data-fa-i2svg=""
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"
                     ></path></svg
                 ></i>
               </a>
