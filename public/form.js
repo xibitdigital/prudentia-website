@@ -93,6 +93,11 @@ document.addEventListener("DOMContentLoaded", function () {
         btnLoading.classList.add("hidden");
 
         if (response.ok && data.success) {
+          // Track Google Ads conversion
+          if (typeof gtag === "function") {
+            gtag("event", "conversion", { send_to: "AW-17850232654/NZbcCITggdwbEM7e079C" });
+          }
+
           // Show success message
           formMessage.classList.remove("hidden");
           successMessage.classList.remove("hidden");
