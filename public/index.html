@@ -77,6 +77,11 @@
       ::-webkit-scrollbar {
         display: none;
       }
+      @media (min-width: 768px) {
+        .hero-section {
+          min-height: 700px;
+        }
+      }
     </style>
     <link rel="stylesheet" href="tailwind.css" />
 
@@ -350,19 +355,12 @@
         <div class="flex items-center justify-between">
           <a href="/">
             <img
-              src="prudentia-logo.svg"
+              src="prudentia-logo.svg?v=2"
               alt="Prudentia Psychological Services - CBT Therapy London"
-              class="h-24 md:h-36"
-              width="200"
-              height="140"
+              class="h-20 lg:h-36 w-auto"
             />
           </a>
-          <nav class="hidden md:flex items-center space-x-8">
-            <a
-              href="#about"
-              class="text-gray-700 hover:text-teal-soft transition-colors duration-300 font-medium cursor-pointer"
-              >About Me</a
-            >
+          <nav class="hidden lg:flex items-center space-x-8">
             <a
               href="#services"
               class="text-gray-700 hover:text-teal-soft transition-colors duration-300 font-medium cursor-pointer"
@@ -395,7 +393,7 @@
               Free Consultation
             </a>
           </nav>
-          <button id="mobileMenuBtn" class="md:hidden text-gray-700">
+          <button id="mobileMenuBtn" class="lg:hidden text-gray-700">
             <i class="text-xl" data-fa-i2svg=""
               ><svg
                 class="svg-inline--fa fa-bars"
@@ -419,7 +417,7 @@
     </header>
 
     <!-- Mobile Menu -->
-    <div id="mobileMenu" class="hidden fixed top-0 left-0 right-0 bottom-0 bg-gray-900/95 z-[60] md:hidden">
+    <div id="mobileMenu" class="hidden fixed top-0 left-0 right-0 bottom-0 bg-gray-900/95 z-[60] lg:hidden">
       <div class="flex flex-col items-center justify-center h-full space-y-6">
         <button
           id="closeMobileMenu"
@@ -427,9 +425,6 @@
         >
           ✕
         </button>
-        <a href="#about" class="text-white text-2xl font-medium hover:text-teal-soft transition-colors mobile-menu-link"
-          >About Me</a
-        >
         <a
           href="#services"
           class="text-white text-2xl font-medium hover:text-teal-soft transition-colors mobile-menu-link"
@@ -467,24 +462,24 @@
     <main id="main-content">
       <section
         id="hero"
-        class="pt-32 md:pt-24 pb-16 md:pb-0 bg-gradient-to-br from-blue-50 via-white to-teal-50 min-h-[700px] flex items-center"
+        class="hero-section pt-36 lg:pt-24 pb-16 lg:pb-0 bg-gradient-to-br from-blue-50 via-white to-teal-50 flex items-center"
       >
         <div class="max-w-7xl mx-auto px-6">
           <div class="grid lg:grid-cols-2 gap-12 items-center">
             <div class="space-y-8" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out">
               <div class="space-y-6" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out">
-                <h1 class="text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
-                  Start Your Path to<br />
+                <h1 class="text-4xl lg:text-6xl font-bold text-gray-800 leading-tight">
+                  Start Your Path to
                   <span class="bg-gradient-to-r from-teal-soft to-blue-gentle bg-clip-text text-transparent"
                     >Lasting Change</span
                   >
                 </h1>
-                <p class="text-xl text-gray-600 leading-relaxed max-w-xl">
+                <p class="text-xl text-gray-600 leading-relaxed lg:max-w-xl">
                   Evidence-based psychological therapy online, specialising in Cognitive Behavioural Therapy (CBT),
                   helping <span class="text-blue-gentle font-semibold">individuals and couples</span> gain clarity and
                   create lasting change.
                 </p>
-                <p class="text-lg text-gray-600 leading-relaxed max-w-xl">
+                <p class="text-lg text-gray-600 leading-relaxed lg:max-w-xl">
                   <span class="font-bold text-gray-800">Common reasons clients seek therapy include:</span><br />
                   <span class="text-base"
                     >Anxiety &bull; Depression &bull; Burnout &bull; Relationship Difficulties &bull; Life
@@ -2000,7 +1995,7 @@
           <div class="lg:col-span-2" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out">
             <div class="mb-6">
               <img
-                src="prudentia-logo.svg"
+                src="prudentia-logo.svg?v=2"
                 alt="Prudentia Psychological Services"
                 class="h-28"
                 width="160"
