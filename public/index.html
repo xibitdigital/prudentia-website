@@ -2184,5 +2184,23 @@
     </script>
 
     <script src="form.js"></script>
+    <script>
+      // Fix anchor scroll offset for fixed navbar
+      function scrollToHash() {
+        if (window.location.hash) {
+          var el = document.querySelector(window.location.hash);
+          if (el) {
+            var headerHeight = document.getElementById("header").offsetHeight;
+            var top = el.getBoundingClientRect().top + window.scrollY - headerHeight - 16;
+            window.scrollTo({ top: top, behavior: "auto" });
+          }
+        }
+      }
+      if (document.readyState === "complete") {
+        scrollToHash();
+      } else {
+        window.addEventListener("load", scrollToHash);
+      }
+    </script>
   </body>
 </html>
