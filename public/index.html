@@ -82,6 +82,21 @@
           min-height: 700px;
         }
       }
+      .cta-button {
+        background: linear-gradient(to right, #4fd1c7, #60a5fa);
+        color: white;
+        font-weight: 600;
+        border-radius: 0.75rem;
+        transition: all 0.3s;
+        display: inline-block;
+        text-align: center;
+      }
+      .cta-button:hover {
+        box-shadow:
+          0 20px 25px -5px rgba(0, 0, 0, 0.1),
+          0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+        transform: scale(1.05) !important;
+      }
     </style>
     <link rel="stylesheet" href="tailwind.css" />
 
@@ -400,12 +415,7 @@
               class="text-gray-700 hover:text-teal-soft transition-colors duration-300 font-medium cursor-pointer"
               >Contact</a
             >
-            <a
-              href="#contact"
-              class="bg-gradient-to-r from-teal-soft to-blue-gentle text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105 inline-block"
-            >
-              Free Consultation
-            </a>
+            <a href="#contact" class="cta-button px-6 py-2"> Free Consultation </a>
           </nav>
           <button id="mobileMenuBtn" class="lg:hidden text-gray-700">
             <i class="text-xl" data-fa-i2svg=""
@@ -464,12 +474,7 @@
           class="text-white text-2xl font-medium hover:text-teal-soft transition-colors mobile-menu-link"
           >Contact</a
         >
-        <a
-          href="#contact"
-          class="bg-gradient-to-r from-teal-soft to-blue-gentle text-white px-8 py-3 rounded-full font-semibold hover:shadow-xl transition-all duration-300 mobile-menu-link"
-        >
-          Free Consultation
-        </a>
+        <a href="#contact" class="cta-button px-8 py-3 mobile-menu-link"> Free Consultation </a>
       </div>
     </div>
 
@@ -505,16 +510,14 @@
               class="flex flex-col items-center justify-center space-y-6"
               style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out"
             >
-              <div class="bg-gradient-to-br from-teal-soft/10 to-blue-gentle/10 rounded-2xl p-8 w-full max-w-md">
+              <div
+                class="bg-gradient-to-br from-teal-soft/10 to-blue-gentle/10 rounded-2xl w-full lg:max-w-md"
+                style="padding: 2.5rem 2rem"
+              >
                 <div class="space-y-4">
-                  <a
-                    href="#contact"
-                    class="block bg-gradient-to-r from-teal-soft to-blue-gentle text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 text-center"
-                  >
-                    Request a Free Consultation
-                  </a>
-                  <p class="text-xs text-gray-500 text-center">Response within 24 hours</p>
-                  <p class="text-sm text-gray-500 text-center italic">
+                  <a href="#contact" class="cta-button block px-8 py-3"> Request a Free Consultation </a>
+                  <p class="text-sm text-gray-500 text-center font-medium">Response within 24 hours</p>
+                  <p class="text-base text-gray-500 text-center italic">
                     An opportunity to briefly discuss your situation and how therapy could support you.
                   </p>
                 </div>
@@ -1812,7 +1815,7 @@
           <div class="grid lg:grid-cols-2 gap-16">
             <div class="space-y-8" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out">
               <div
-                class="bg-white rounded-2xl p-8 border shadow-lg hover:shadow-2xl"
+                class="bg-white rounded-2xl p-8 border shadow-lg"
                 style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out"
               >
                 <h3 class="text-2xl font-bold text-gray-800 mb-6">Service Information</h3>
@@ -1886,7 +1889,7 @@
                 </div>
               </div>
               <div
-                class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border"
+                class="bg-white rounded-2xl p-8 shadow-lg border"
                 style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out"
               >
                 <h3 class="text-2xl font-bold text-gray-800 mb-6">Session Availability</h3>
@@ -1901,7 +1904,7 @@
               </div>
             </div>
             <div
-              class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border"
+              class="bg-white rounded-2xl p-8 shadow-lg border"
               style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out"
             >
               <h3 class="text-2xl font-bold text-gray-800 mb-6">Request Your Free Online / Phone Consultation</h3>
@@ -1957,11 +1960,7 @@
                     placeholder="Brief description of your concerns or goals..."
                   ></textarea>
                 </div>
-                <button
-                  type="submit"
-                  id="submitBtn"
-                  class="w-full bg-gradient-to-r from-teal-soft to-blue-gentle text-white py-4 rounded-xl font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-                >
+                <button type="submit" id="submitBtn" class="cta-button w-full py-4">
                   <span id="btnText">Submit Request</span>
                   <span id="btnLoading" class="hidden">
                     <svg

@@ -82,6 +82,21 @@
           min-height: 700px;
         }
       }
+      .cta-button {
+        background: linear-gradient(to right, #4fd1c7, #60a5fa);
+        color: white;
+        font-weight: 600;
+        border-radius: 0.75rem;
+        transition: all 0.3s;
+        display: inline-block;
+        text-align: center;
+      }
+      .cta-button:hover {
+        box-shadow:
+          0 20px 25px -5px rgba(0, 0, 0, 0.1),
+          0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+        transform: scale(1.05) !important;
+      }
     </style>
     <link rel="stylesheet" href="tailwind.css" />
 
@@ -150,12 +165,7 @@
               class="text-gray-700 hover:text-teal-soft transition-colors duration-300 font-medium cursor-pointer"
               >Contact</a
             >
-            <a
-              href="/#contact"
-              class="bg-gradient-to-r from-teal-soft to-blue-gentle text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105 inline-block"
-            >
-              Free Consultation
-            </a>
+            <a href="/#contact" class="cta-button px-6 py-2"> Free Consultation </a>
           </nav>
           <button id="mobileMenuBtn" class="lg:hidden text-gray-700">
             <i class="text-xl" data-fa-i2svg=""
@@ -214,12 +224,7 @@
           class="text-white text-2xl font-medium hover:text-teal-soft transition-colors mobile-menu-link"
           >Contact</a
         >
-        <a
-          href="/#contact"
-          class="bg-gradient-to-r from-teal-soft to-blue-gentle text-white px-8 py-3 rounded-full font-semibold hover:shadow-xl transition-all duration-300 mobile-menu-link"
-        >
-          Free Consultation
-        </a>
+        <a href="/#contact" class="cta-button px-8 py-3 mobile-menu-link"> Free Consultation </a>
       </div>
     </div>
 
@@ -281,7 +286,7 @@
       </section>
 
       <!-- How I Work + Why Therapy (Grid) -->
-      <section class="pt-10 pb-20 lg:py-20 bg-white">
+      <section class="pb-20 bg-white" style="padding-top: 5rem">
         <div class="max-w-7xl mx-auto px-6">
           <div class="grid lg:grid-cols-2 gap-12">
             <!-- How I Work -->
@@ -364,12 +369,7 @@
               Learn more about Dr. Sangalli &rarr;
             </a>
             <div class="mt-8 mb-16">
-              <a
-                href="/#contact"
-                class="inline-block bg-gradient-to-r from-teal-soft to-blue-gentle text-white px-8 py-3 rounded-full font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-              >
-                Free Consultation
-              </a>
+              <a href="/#contact" class="cta-button px-8 py-3"> Free Consultation </a>
             </div>
           </div>
         </div>
