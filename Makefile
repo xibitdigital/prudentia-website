@@ -8,3 +8,7 @@ install: ## Install dependencies for pre-commit
 .PHONY: local-ci
 local-ci:
 	pre-commit run --all-files
+
+.PHONY: serve
+serve:
+	npm run watch:css & python3 -m http.server 8000 --directory public; kill %1
